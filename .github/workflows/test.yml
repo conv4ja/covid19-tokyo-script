@@ -2,9 +2,9 @@ name: full-convert
 
 on:
   push:
-    # Publish `master` as Docker `latest` image.
     branches:
       - master
+      - draft
 
 jobs:
 
