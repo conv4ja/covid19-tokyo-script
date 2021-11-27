@@ -1,0 +1,13 @@
+diff --git a/data/metro.json b/data/metro.json
+index 7192e1db1d0..430beaf630d 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -146,7 +146,7 @@
+             ]
+         },
+         {
+-            "label": "6\/15~19",
++            "label": "6\/15~18",
+             "data": [
+                 -12.64,
+                 -40.34,

@@ -1,0 +1,24 @@
+diff --git a/data/data.json b/data/data.json
+index c84321dcd58..23dacea17fa 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -11483,7 +11483,7 @@
+             "2021-05-28"
+         ]
+     },
+-    "lastUpdate": "2021\/05\/31 16:00",
++    "lastUpdate": "2021\/05\/31 14:00",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/vaccination.json b/data/vaccination.json
+index 4856862deda..a68d5f282e0 100644
+--- a/data/vaccination.json
++++ b/data/vaccination.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/31 16:00",
++    "date": "2021\/5\/20 19:30",
+     "datasets": [
+         {
+             "period": {

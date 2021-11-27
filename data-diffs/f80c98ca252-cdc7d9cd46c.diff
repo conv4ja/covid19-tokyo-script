@@ -1,0 +1,16 @@
+diff --git a/data/news.json b/data/news.json
+index af72af4cd0a..b933f3756fd 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -10,11 +10,6 @@
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/hodo\/saishin\/hassei.html",
+             "text": "【1\/8の状況】新規陽性者2,392人、うち65歳以上の高齢者数235人、死亡者数7人、検査数14,227件（1\/5参考値）、都外からの持込検体による陽性数42"
+         },
+-        {
+-            "date": "2021\/01\/08",
+-            "url": "https:\/\/www.metro.tokyo.lg.jp\/tosei\/governor\/governor\/katsudo\/2021\/01\/08_00.html",
+-            "text": "緊急事態宣言発令に伴う知事からのメッセージ"
+-        },
+         {
+             "date": "2021\/01\/08",
+             "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/1007617\/index.html",

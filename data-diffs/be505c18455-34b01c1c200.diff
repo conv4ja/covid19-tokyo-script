@@ -1,0 +1,19 @@
+diff --git a/data/patient.json b/data/patient.json
+index dd871e245c6..7eddece5db9 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -312,10 +312,10 @@
+                 "count": 154
+             },
+             {
+-                "code": 132241,
+-                "area": "多摩地域",
+-                "label": "多摩市",
+-                "ruby": "たまし",
++                "code": null,
++                "area": null,
++                "label": "武蔵村山2",
++                "ruby": null,
+                 "count": 341
+             },
+             {

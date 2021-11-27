@@ -1,0 +1,14 @@
+diff --git a/data/news.json b/data/news.json
+index 273b6dbfb16..fe03cda5069 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -13,7 +13,7 @@
+         {
+             "date": "2020\/12\/25",
+             "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/lp01\/",
+-            "text": "「この冬も感染しない、させない。」特設ページを開設しました"
++            "text": "「この冬も感染しない、させない。」東京都新型コロナウイルス感染症対策特設ページはこちら"
+         }
+     ]
+ }
+\ No newline at end of file

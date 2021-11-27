@@ -1,0 +1,16 @@
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index e0bf92e22a8..2212fed7c90 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -904,10 +904,6 @@
+         {
+             "diagnosed_date": "2020-09-04",
+             "count": 132
+-        },
+-        {
+-            "diagnosed_date": "2020-09-05",
+-            "count": 2
+         }
+     ]
+ }
+\ No newline at end of file

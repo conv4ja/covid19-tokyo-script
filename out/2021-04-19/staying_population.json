@@ -1,0 +1,18 @@
+{
+    "date": "2021\/4\/19 13:30",
+    "data": {
+        "place": {
+            "display": {
+                "@ja": "品川",
+                "@en": "Sinagawa"
+            }
+        },
+        "date": "2021-04-12",
+        "data": [
+            {
+                "reference_date": "2020-01-01",
+                "increase_rate": -53
+            }
+        ]
+    }
+}

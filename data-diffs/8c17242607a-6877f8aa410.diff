@@ -1,0 +1,24 @@
+diff --git a/data/agency.json b/data/agency.json
+index 5e2c9424f3a..9881f486382 100755
+--- a/data/agency.json
++++ b/data/agency.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/10\/19 11:00",
++    "date": "2020\/10\/19 13:20",
+     "labels": [
+         "1\/1~1\/5",
+         "1\/6~1\/12",
+diff --git a/data/data.json b/data/data.json
+index 15eae6fde7a..4adbd237571 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -240664,7 +240664,7 @@
+             "10\/15"
+         ]
+     },
+-    "lastUpdate": "2020\/10\/19 11:00",
++    "lastUpdate": "2020\/10\/19 13:20",
+     "main_summary": {
+         "children": [
+             {

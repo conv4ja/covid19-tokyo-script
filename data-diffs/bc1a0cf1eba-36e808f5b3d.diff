@@ -1,0 +1,12 @@
+diff --git a/data/monitoring_comment_summary_temporary.json b/data/monitoring_comment_summary_temporary.json
+deleted file mode 100644
+index 3fd903fe2bd..00000000000
+--- a/data/monitoring_comment_summary_temporary.json
++++ /dev/null
+@@ -1,6 +0,0 @@
+-{
+-    "date": "2021\/02\/25 16:00",
+-    "data": {
+-        "summary": "４５文字ああああああああああああああああああああああああああああああああああああああああ。３５文字あああああああああああああ・・・・・・あああああああああああ。４２文字あああああああああああああ・・・・・・・・・・ああああああああああああああ。"
+-    }
+-}

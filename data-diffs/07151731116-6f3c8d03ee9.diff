@@ -1,0 +1,41 @@
+diff --git a/data/vaccination.json b/data/vaccination.json
+index 9ad6f0ddaa2..c00e00c13e9 100644
+--- a/data/vaccination.json
++++ b/data/vaccination.json
+@@ -3,17 +3,7 @@
+     "datasets": [
+         {
+             "period": {
+-                "begin": "2021-04-19",
+-                "end": "2021-04-25"
+-            },
+-            "data": {
+-                "cumulative_1st_dose": 2899,
+-                "cumulative_2nd_dose": 0
+-            }
+-        },
+-        {
+-            "period": {
+-                "begin": "2021-04-26",
++                "begin": "2021-05-01",
+                 "end": "2021-05-05"
+             },
+             "data": {
+@@ -40,16 +30,6 @@
+                 "cumulative_1st_dose": 72080,
+                 "cumulative_2nd_dose": 2761
+             }
+-        },
+-        {
+-            "period": {
+-                "begin": "2021-05-17",
+-                "end": "2021-05-23"
+-            },
+-            "data": {
+-                "cumulative_1st_dose": 206207,
+-                "cumulative_2nd_dose": 5762
+-            }
+         }
+     ]
+ }
+\ No newline at end of file

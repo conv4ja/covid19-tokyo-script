@@ -1,0 +1,17 @@
+diff --git a/data/metro.json b/data/metro.json
+index 84d7ef50811..c07e0164824 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -458,10 +458,10 @@
+             ]
+         },
+         {
+-            "label": "11\/2~06",
++            "label": "11\/2~05",
+             "period": {
+                 "begin": "2020-11-02",
+-                "end": "2020-11-06"
++                "end": "2020-11-05"
+             },
+             "data": [
+                 -8.34,

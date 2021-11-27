@@ -1,0 +1,26 @@
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index 4a7026b34d3..6f0fb22f712 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -9,7 +9,7 @@
+         "(4)PCR・抗原検査（検査人数）": 3828.9,
+         "(5)救急医療の東京ルールの適用件数": 46.1,
+         "(6)入院患者数": 1474,
+-        "(6)入院患者確保病床数": "2600床",
++        "(6)入院患者確保病床数": "2500床",
+         "(7)重症患者数": 31,
+         "(7)重症患者確保病床数": "150床",
+         "総括コメント-感染状況": {
+diff --git a/data/news.json b/data/news.json
+index c286724a795..205992e2e6d 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -3,7 +3,7 @@
+         {
+             "date": "2020\/08\/27",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/hodo\/saishin\/hassei.html",
+-            "text": "【8\/27時点の都内患者数】入院患者数1,474人（確保病床数2,600床）、うち重症者数31人（重症病床数150床）"
++            "text": "【8\/27時点の都内患者数】入院患者数1,474人（確保病床数2,500床）、うち重症者数31人（重症病床数150床）"
+         },
+         {
+             "date": "2020\/08\/27",

@@ -1,0 +1,17 @@
+diff --git a/data/news.json b/data/news.json
+index 4e78d05ba1b..4af639e794e 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -21,9 +21,9 @@
+             "text": "東京都緊急事態措置等に関する情報"
+         },
+         {
+-            "date": "2021\/01\/30",
++            "date": "2021\/01\/29",
+             "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/information\/corona-people-flow-analysis.html",
+-            "text": "【1\/29の滞在人口の増減状況】銀座は昨年12月比36％減、昨年1月比60％減。詳細はこちらをご覧ください。"
++            "text": "【1\/28の滞在人口の増減状況】銀座は昨年12月比39％減、昨年1月比62％減。詳細はこちらをご覧ください。"
+         }
+     ]
+ }
+\ No newline at end of file

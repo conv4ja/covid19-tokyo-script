@@ -1,0 +1,24 @@
+diff --git a/data/positive_status.json b/data/positive_status.json
+index 51310f104b6..a192d478f66 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/7\/26 20:00",
++    "date": "2020\/7\/25 20:30",
+     "data": [
+         {
+             "date": "2020-02-28",
+@@ -745,11 +745,6 @@
+             "date": "2020-07-25",
+             "hospitalized": 1105,
+             "severe_case": 16
+-        },
+-        {
+-            "date": "2020-07-26",
+-            "hospitalized": 1165,
+-            "severe_case": 18
+         }
+     ]
+ }
+\ No newline at end of file

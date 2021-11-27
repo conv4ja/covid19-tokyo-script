@@ -1,0 +1,33 @@
+name: full-convert
+
+on:
+  push:
+    # Publish `master` as Docker `latest` image.
+    branches:
+      - master
+
+jobs:
+
+  # Push image to DockerHub.
+  # See also https://docs.docker.com/docker-hub/builds/
+  test-convert:
+
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: install dependencies
+        run: |
+          sudo apt-get install -y git jq python3-xlrd python3-pandas 
+
+      - name: fetch code, conv it
+        run: |
+          sh -exc " \
+          git clone https://github.com/tokyo-metropolitan-gov/covid19 covid; \
+          PATH=$PWD:$PATH;\
+          cd covid; \
+          conv.sh all; \
+          "
+

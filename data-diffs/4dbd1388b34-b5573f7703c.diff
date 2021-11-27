@@ -1,0 +1,13 @@
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index 6c55cbaae54..0cd57e1c28f 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1374,7 +1374,7 @@
+             "count": 1213
+         },
+         {
+-            "diagnosed_date": "2020-12-31",
++            "diagnosed_date": "2021-12-31",
+             "count": 774
+         },
+         {

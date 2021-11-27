@@ -1,0 +1,11 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index 9c713703a52..f8c75d7aede 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/2\/4 15:00",
++    "date": "2021\/1\/28 19:45",
+     "data": {
+         "place": {
+             "display": {

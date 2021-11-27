@@ -1,0 +1,13 @@
+diff --git a/data/infection_medicalcareprovision_status.json b/data/infection_medicalcareprovision_status.json
+index 6fbf4163cc4..a31484f22ed 100644
+--- a/data/infection_medicalcareprovision_status.json
++++ b/data/infection_medicalcareprovision_status.json
+@@ -3,7 +3,7 @@
+     "data": {
+         "新規陽性者": 445,
+         "検査数": 11803,
+-        "検査統計日時": "2021-02-15",
++        "検査統計日時": "1970-01-01",
+         "うち65歳以上の高齢者数": 91,
+         "死亡者数": 27,
+         "都外からの持込検体による陽性数": 5,

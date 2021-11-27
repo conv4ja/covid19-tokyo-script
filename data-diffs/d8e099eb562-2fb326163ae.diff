@@ -1,0 +1,13 @@
+diff --git a/data/news.json b/data/news.json
+index 735db19ceb5..182b55fa372 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -7,7 +7,7 @@
+         },
+         {
+             "date": "2021\/02\/11",
+-            "url": "https:\/\/www.metro.tokyo.lg.jp\/tosei\/governor\/governor\/katsudo\/2021\/02\/08_00.html",
++            "url": "https:\/\/www.metro.tokyo.lg.jp\/tosei\/governor\/governor\/katsudo\/2021\/01\/08_00.html",
+             "text": "緊急事態宣言発令に伴う知事からのメッセージ"
+         },
+         {

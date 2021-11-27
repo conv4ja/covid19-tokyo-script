@@ -1,0 +1,16 @@
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index faaa8584b91..4e75b2a5973 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1222,8 +1222,8 @@
+             "missing_count": 6,
+             "reported_count": 6,
+             "weekly_gain_ratio": 1.95,
+-            "untracked_percent": 45.3,
+-            "weekly_average_count": 16.4
++            "untracked_percent": 45.2,
++            "weekly_average_count": 16.43
+         }
+     ]
+ }
+\ No newline at end of file

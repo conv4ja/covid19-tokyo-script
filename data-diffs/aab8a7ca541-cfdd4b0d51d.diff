@@ -1,0 +1,52 @@
+diff --git a/data/data.json b/data/data.json
+index 68fb6431765..273d23091c1 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -9185,7 +9185,7 @@
+             "2021-01-20"
+         ]
+     },
+-    "lastUpdate": "2021\/01\/22 11:00",
++    "lastUpdate": "2021\/01\/21 20:00",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/metro.json b/data/metro.json
+index 6b3c7f23907..58fdffbb20b 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/1\/22 11:00",
++    "date": "2021\/1\/15 11:00",
+     "datasets": [
+         {
+             "period": {
+@@ -532,23 +532,12 @@
+         {
+             "period": {
+                 "begin": "2021-01-12",
+-                "end": "2021-01-15"
++                "end": "2021-01-14"
+             },
+             "data": [
+-                -22.53,
+-                -41.9,
+-                -42.68
+-            ]
+-        },
+-        {
+-            "period": {
+-                "begin": "2021-01-18",
+-                "end": "2021-01-21"
+-            },
+-            "data": [
+-                -23.7,
+-                -43.72,
+-                -43.43
++                -21.89,
++                -41.35,
++                -42.96
+             ]
+         }
+     ],

@@ -1,0 +1,15 @@
+diff --git a/data/data.json b/data/data.json
+index 9130b11e21c..0b8e88e0ede 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -7590,6 +7590,10 @@
+             },
+             {
+                 "日付": "2021-01-12T08:00:00.000Z",
++                "小計": 0
++            },
++            {
++                "日付": "2021-11-12T08:00:00.000Z",
+                 "小計": 970
+             }
+         ]

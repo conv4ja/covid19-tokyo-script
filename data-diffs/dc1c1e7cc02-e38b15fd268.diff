@@ -1,0 +1,75 @@
+diff --git a/data/data.json b/data/data.json
+index eb648640849..ac74d7ededb 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -10571,7 +10571,7 @@
+             "2021-04-07"
+         ]
+     },
+-    "lastUpdate": "2021\/04\/09 11:00",
++    "lastUpdate": "2021\/04\/08 19:30",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/metro.json b/data/metro.json
+index 43d3b0cf76e..992e67f7563 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/4\/9 11:00",
++    "date": "2021\/4\/2 11:00",
+     "datasets": [
+         {
+             "period": {
+@@ -653,23 +653,12 @@
+         {
+             "period": {
+                 "begin": "2021-03-29",
+-                "end": "2021-04-02"
++                "end": "2021-04-01"
+             },
+             "data": [
+-                -17.14,
+-                -35.02,
+-                -33.47
+-            ]
+-        },
+-        {
+-            "period": {
+-                "begin": "2021-04-05",
+-                "end": "2021-04-08"
+-            },
+-            "data": [
+-                -13.39,
+-                -31.66,
+-                -33.58
++                -17.15,
++                -35.51,
++                -33.56
+             ]
+         }
+     ],
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index d74eb5fe9ad..d452674d6ca 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -4,15 +4,15 @@
+         "専門家3行コメント": [
+             {
+                 "@ja": "新規陽性者数の増加比は3月中旬から継続して100％を超えている。",
+-                "@en": "The 7-day moving average of new positive cases has been surpassing that of the previous week since mid-March."
++                "@en": "新規陽性者数の増加比は3月中旬から継続して100％を超えている。"
+             },
+             {
+                 "@ja": "都内でも感染力の強い変異株による感染例が著しく増加した。",
+-                "@en": "Tokyo is also seeing a considerable increase in infections from highly contagious variants."
++                "@en": "都内でも感染力の強い変異株による感染例が著しく増加した。"
+             },
+             {
+                 "@ja": "徹底的に感染防止対策を実行する必要がある。",
+-                "@en": "Thorough implementation of infection prevention measures is necessary."
++                "@en": "徹底的に感染防止対策を実行する必要がある。"
+             }
+         ],
+         "(1)新規陽性者数": 427,

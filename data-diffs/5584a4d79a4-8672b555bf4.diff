@@ -1,0 +1,13 @@
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index db00074b5d4..faaa8584b91 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1222,7 +1222,7 @@
+             "missing_count": 6,
+             "reported_count": 6,
+             "weekly_gain_ratio": 1.95,
+-            "untracked_percent": 45.2,
++            "untracked_percent": 45.3,
+             "weekly_average_count": 16.4
+         }
+     ]

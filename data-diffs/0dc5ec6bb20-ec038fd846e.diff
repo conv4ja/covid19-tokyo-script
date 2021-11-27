@@ -1,0 +1,11 @@
+diff --git a/data/deaths.json b/data/deaths.json
+index cf9ccb5c276..93ffaff1aea 100644
+--- a/data/deaths.json
++++ b/data/deaths.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/4\/10 19:00",
++    "date": "2021\/4\/11 19:00",
+     "data": [
+         {
+             "death_date": "2020-02-26",

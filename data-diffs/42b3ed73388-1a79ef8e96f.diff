@@ -1,0 +1,90 @@
+diff --git a/data/agency.json b/data/agency.json
+index 41ec6004fe8..985bfaca2ca 100755
+--- a/data/agency.json
++++ b/data/agency.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/6\/28 14:00",
++    "date": "2021\/6\/21 15:00",
+     "periods": [
+         {
+             "begin": "2020-01-01",
+@@ -312,10 +312,6 @@
+         {
+             "begin": "2021-06-14",
+             "end": "2021-06-20"
+-        },
+-        {
+-            "begin": "2021-06-21",
+-            "end": "2021-06-27"
+         }
+     ],
+     "datasets": [
+@@ -399,8 +395,7 @@
+                 5630,
+                 5966,
+                 6409,
+-                5950,
+-                6700
++                5950
+             ]
+         },
+         {
+@@ -483,8 +478,7 @@
+                 7504,
+                 7303,
+                 7883,
+-                7904,
+-                8548
++                7904
+             ]
+         },
+         {
+@@ -567,8 +561,7 @@
+                 338,
+                 450,
+                 352,
+-                108,
+-                80
++                108
+             ]
+         }
+     ]
+diff --git a/data/data.json b/data/data.json
+index 71ba49ce14f..29559ebbe55 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -11987,7 +11987,7 @@
+             "2021-06-25"
+         ]
+     },
+-    "lastUpdate": "2021\/06\/28 14:00",
++    "lastUpdate": "2021\/06\/27 17:45",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/staying_population.json b/data/staying_population.json
+index 6136f9f24be..e5dc7c9b145 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/6\/28 13:00",
++    "date": "2021\/6\/21 12:55",
+     "data": {
+         "place": {
+             "display": {
+@@ -7,11 +7,11 @@
+                 "@en": "Shinagawa"
+             }
+         },
+-        "date": "2021-06-21",
++        "date": "2021-06-14",
+         "data": [
+             {
+                 "reference_date": "2020-01-01",
+-                "increase_rate": -57
++                "increase_rate": -59
+             }
+         ]
+     }

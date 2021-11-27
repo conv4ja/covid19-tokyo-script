@@ -1,0 +1,22 @@
+{
+    "date": "2021\/2\/21 15:30",
+    "data": {
+        "place": {
+            "display": {
+                "@ja": "東京",
+                "@en": "Tokyo"
+            }
+        },
+        "date": "2021-02-20",
+        "data": [
+            {
+                "reference_date": "2020-12-01",
+                "increase_rate": -22
+            },
+            {
+                "reference_date": "2020-01-01",
+                "increase_rate": -51
+            }
+        ]
+    }
+}

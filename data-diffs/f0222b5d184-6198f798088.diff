@@ -1,0 +1,17 @@
+diff --git a/data/news.json b/data/news.json
+index 998b08e4a86..81decd9b1c5 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -14,6 +14,11 @@
+             "date": "2021\/01\/04",
+             "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/lp01\/",
+             "text": "「この冬も感染しない、させない。」特設ページを開設しました"
++        },
++        {
++            "date": "2021\/01\/04",
++            "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/cross-efforts\/0101schedule.pdf",
++            "text": "年末年始のデータ更新スケジュールについて"
+         }
+     ]
+ }
+\ No newline at end of file

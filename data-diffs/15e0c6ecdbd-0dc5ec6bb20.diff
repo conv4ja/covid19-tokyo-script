@@ -1,0 +1,18 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index 75e012ad787..c71cafed752 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -7,11 +7,11 @@
+                 "@en": "Sinagawa"
+             }
+         },
+-        "date": "2021-04-05",
++        "date": "2021-03-29",
+         "data": [
+             {
+                 "reference_date": "2020-01-01",
+-                "increase_rate": -53
++                "increase_rate": -50
+             }
+         ]
+     }

@@ -1,0 +1,48 @@
+diff --git a/data/data.json b/data/data.json
+index 714655fadde..c00db3bd556 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -245244,7 +245244,7 @@
+             "10\/21"
+         ]
+     },
+-    "lastUpdate": "2020\/10\/23 09:30",
++    "lastUpdate": "2020\/10\/22 19:00",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/metro.json b/data/metro.json
+index b489ed0cced..7c849b2d27c 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/10\/23 9:30",
++    "date": "2020\/10\/16 9:30",
+     "datasets": [
+         {
+             "label": "2\/10~14",
+@@ -282,19 +282,11 @@
+             ]
+         },
+         {
+-            "label": "10\/12~16",
++            "label": "10\/12~15",
+             "data": [
+-                -8.03,
+-                -30.57,
+-                -32.01
+-            ]
+-        },
+-        {
+-            "label": "10\/19~22",
+-            "data": [
+-                -7.42,
+-                -30.16,
+-                -32.01
++                -7.45,
++                -30.2,
++                -32.25
+             ]
+         }
+     ],

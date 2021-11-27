@@ -1,0 +1,105 @@
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index a2eec5fae94..cd53b8471d5 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-20",
+diff --git a/data/data.json b/data/data.json
+index f91a7225596..4c9f7292dd3 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -7530,7 +7530,7 @@
+         ]
+     },
+     "patients_summary": {
+-        "date": "2021\/05\/30 18:30",
++        "date": "2021\/05\/30 18:00",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -11483,12 +11483,12 @@
+             "2021-05-28"
+         ]
+     },
+-    "lastUpdate": "2021\/05\/30 18:30",
++    "lastUpdate": "2021\/05\/30 18:00",
+     "main_summary": {
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2021\/5\/30 18:30",
++                "date": "2021\/5\/30 18:00",
+                 "value": 160695,
+                 "children": [
+                     {
+diff --git a/data/infection_medicalcareprovision_status.json b/data/infection_medicalcareprovision_status.json
+index 974d5d9f523..180b6d481b4 100644
+--- a/data/infection_medicalcareprovision_status.json
++++ b/data/infection_medicalcareprovision_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "data": {
+         "新規陽性者": 448,
+         "検査数": 7698.7,
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index 22bab3ca1da..335390ff439 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "data": {
+         "専門家3行コメント": [
+             {
+diff --git a/data/patient.json b/data/patient.json
+index b351e0a66fe..55f3d25f722 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "datasets": {
+         "date": "2021\/5\/29",
+         "data": [
+diff --git a/data/positive_by_developed.json b/data/positive_by_developed.json
+index e74c77b48d4..3e1912b1495 100644
+--- a/data/positive_by_developed.json
++++ b/data/positive_by_developed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "unknown_count": 56453,
+     "data": [
+         {
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index e075f1eaf67..b5e7b7d8210 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-23",
+diff --git a/data/positive_status.json b/data/positive_status.json
+index 8b2834fba04..4849405cdce 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/30 18:30",
++    "date": "2021\/5\/30 18:00",
+     "data": [
+         {
+             "date": "2020-02-28",

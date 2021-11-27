@@ -1,0 +1,17 @@
+diff --git a/data/news.json b/data/news.json
+index 40f0f0e81e1..51e1b22323e 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -19,11 +19,6 @@
+             "date": "2020\/10\/30",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/coronasodan.html",
+             "text": "新型コロナウイルス感染症にかかる相談窓口が変更になりました。"
+-        },
+-        {
+-            "date": "2020\/10\/30",
+-            "url": "https:\/\/note.com\/tokyo_icdc",
+-            "text": "東京iCDC（東京感染症対策センター）からのお知らせ"
+         }
+     ]
+ }
+\ No newline at end of file

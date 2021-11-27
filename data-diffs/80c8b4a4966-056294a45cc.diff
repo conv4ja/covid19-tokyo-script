@@ -1,0 +1,15 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index 7a018a395d5..149bafc163c 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -9,6 +9,10 @@
+         },
+         "date": "2021-03-15",
+         "data": [
++            {
++                "reference_date": "2020-12-01",
++                "increase_rate": -33
++            },
+             {
+                 "reference_date": "2020-01-01",
+                 "increase_rate": -56

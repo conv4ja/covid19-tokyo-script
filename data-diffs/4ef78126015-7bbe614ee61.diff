@@ -1,0 +1,75 @@
+diff --git a/data/data.json b/data/data.json
+index a5dc71b92e0..f5401f73417 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -12713,7 +12713,7 @@
+             "2021-08-04"
+         ]
+     },
+-    "lastUpdate": "2021\/08\/06 13:30",
++    "lastUpdate": "2021\/08\/05 20:15",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/metro.json b/data/metro.json
+index ae2188059c9..02c29784396 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/8\/6 13:30",
++    "date": "2021\/7\/30 10:30",
+     "datasets": [
+         {
+             "period": {
+@@ -840,23 +840,12 @@
+         {
+             "period": {
+                 "begin": "2021-07-26",
+-                "end": "2021-07-30"
++                "end": "2021-07-29"
+             },
+             "data": [
+-                -17.92,
+-                -38.53,
+-                -36.45
+-            ]
+-        },
+-        {
+-            "period": {
+-                "begin": "2021-08-02",
+-                "end": "2021-08-05"
+-            },
+-            "data": [
+-                -19.1,
+-                -39.72,
+-                -37.73
++                -17.4,
++                -38.43,
++                -36.85
+             ]
+         }
+     ],
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index 05af50441cc..80c7d966f5e 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -4,15 +4,15 @@
+         "専門家3行コメント": [
+             {
+                 "@ja": "デルタ株等への置き換わりが急速に進み、爆発的な感染拡大が進行している。　",
+-                "@en": "The Delta variant and other variants are rapidly replacing previous strains of the virus, driving the explosive spread of infections."
++                "@en": "デルタ株等への置き換わりが急速に進み、爆発的な感染拡大が進行している。　"
+             },
+             {
+                 "@ja": "入院患者、自宅療養者及び入院・療養等調整中の療養者が急増している。",
+-                "@en": "The number of hospitalizations, as well as the number of people recovering at home or awaiting guidance on admission to a hospital or designated facility for recovery, are rapidly increasing."
++                "@en": "入院患者、自宅療養者及び入院・療養等調整中の療養者が急増している。"
+             },
+             {
+                 "@ja": "入院医療、宿泊療養及び自宅療養の体制を緊急時の体制へ移行する必要がある。",
+-                "@en": "There is the need to shift to emergency systems for hospital care, designated facilities for recovery, and at-home recovery."
++                "@en": "入院医療、宿泊療養及び自宅療養の体制を緊急時の体制へ移行する必要がある。"
+             }
+         ],
+         "(1)新規陽性者数": 3646.9,

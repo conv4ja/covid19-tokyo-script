@@ -1,0 +1,13 @@
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index f2c4d391ed9..148d939a371 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -28,6 +28,6 @@
+                 "@en": "The system must be built up."
+             }
+         },
+-        "総括コメント-更新日": "2020-10-28"
++        "総括コメント-更新日": "2020-10-21"
+     }
+ }
+\ No newline at end of file

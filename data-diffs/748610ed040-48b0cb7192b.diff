@@ -1,0 +1,5270 @@
+diff --git a/data/agency.json b/data/agency.json
+index 3585eaa2cab..d484797c637 100755
+--- a/data/agency.json
++++ b/data/agency.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 17:10",
++    "date": "2020\/11\/2 11:00",
+     "labels": [
+         "1\/1~1\/5",
+         "1\/6~1\/12",
+@@ -44,8 +44,7 @@
+         "10\/5~10\/11",
+         "10\/12~10\/18",
+         "10\/19~10\/25",
+-        "10\/26~11\/1",
+-        "11\/2~11\/8"
++        "10\/26~11\/1"
+     ],
+     "datasets": [
+         {
+@@ -94,8 +93,7 @@
+                 7059,
+                 7317,
+                 6759,
+-                7163,
+-                5746
++                7163
+             ]
+         },
+         {
+@@ -144,8 +142,7 @@
+                 8365,
+                 8902,
+                 8346,
+-                8635,
+-                6432
++                8635
+             ]
+         },
+         {
+@@ -194,8 +191,7 @@
+                 435,
+                 448,
+                 362,
+-                319,
+-                405
++                319
+             ]
+         }
+     ]
+diff --git a/data/consultation_about_fever.json b/data/consultation_about_fever.json
+index b9e40bd7e5b..ac2a2f58924 100644
+--- a/data/consultation_about_fever.json
++++ b/data/consultation_about_fever.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/6 19:45",
+     "data": [
+         {
+             "date": "2020-03-01",
+@@ -1250,21 +1250,6 @@
+             "date": "2020-11-05",
+             "count": 58,
+             "weekly_average_count": 56.9
+-        },
+-        {
+-            "date": "2020-11-06",
+-            "count": 50,
+-            "weekly_average_count": 57.7
+-        },
+-        {
+-            "date": "2020-11-07",
+-            "count": 53,
+-            "weekly_average_count": 55.3
+-        },
+-        {
+-            "date": "2020-11-08",
+-            "count": 68,
+-            "weekly_average_count": 56.3
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index 3bd5c8b402d..ed6543a297f 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/8 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-20",
+@@ -1928,25 +1928,25 @@
+         },
+         {
+             "diagnosed_date": "2020-07-13",
+-            "count": 118,
+-            "missing_count": 63,
++            "count": 119,
++            "missing_count": 64,
+             "reported_count": 55,
+             "weekly_gain_ratio": 1.69,
+-            "untracked_percent": 45.8,
+-            "weekly_average_count": 168.3,
+-            "weekly_average_untracked_count": 77.1,
+-            "weekly_average_untracked_increse_percent": 197.8
++            "untracked_percent": 45.9,
++            "weekly_average_count": 168.4,
++            "weekly_average_untracked_count": 77.3,
++            "weekly_average_untracked_increse_percent": 198.2
+         },
+         {
+             "diagnosed_date": "2020-07-14",
+             "count": 143,
+             "missing_count": 64,
+             "reported_count": 79,
+-            "weekly_gain_ratio": 1.62,
+-            "untracked_percent": 45.9,
+-            "weekly_average_count": 173.6,
+-            "weekly_average_untracked_count": 79.7,
+-            "weekly_average_untracked_increse_percent": 191.8
++            "weekly_gain_ratio": 1.63,
++            "untracked_percent": 46,
++            "weekly_average_count": 173.7,
++            "weekly_average_untracked_count": 79.9,
++            "weekly_average_untracked_increse_percent": 192.1
+         },
+         {
+             "diagnosed_date": "2020-07-15",
+@@ -1954,10 +1954,10 @@
+             "missing_count": 87,
+             "reported_count": 78,
+             "weekly_gain_ratio": 1.73,
+-            "untracked_percent": 46.8,
+-            "weekly_average_count": 186.4,
+-            "weekly_average_untracked_count": 87.3,
+-            "weekly_average_untracked_increse_percent": 199.7
++            "untracked_percent": 46.9,
++            "weekly_average_count": 186.6,
++            "weekly_average_untracked_count": 87.4,
++            "weekly_average_untracked_increse_percent": 200
+         },
+         {
+             "diagnosed_date": "2020-07-16",
+@@ -1966,9 +1966,9 @@
+             "reported_count": 149,
+             "weekly_gain_ratio": 1.57,
+             "untracked_percent": 47.2,
+-            "weekly_average_count": 195.3,
+-            "weekly_average_untracked_count": 92.1,
+-            "weekly_average_untracked_increse_percent": 177.2
++            "weekly_average_count": 195.4,
++            "weekly_average_untracked_count": 92.3,
++            "weekly_average_untracked_increse_percent": 177.5
+         },
+         {
+             "diagnosed_date": "2020-07-17",
+@@ -1977,9 +1977,9 @@
+             "reported_count": 151,
+             "weekly_gain_ratio": 1.43,
+             "untracked_percent": 48.4,
+-            "weekly_average_count": 202.4,
+-            "weekly_average_untracked_count": 98,
+-            "weekly_average_untracked_increse_percent": 161.4
++            "weekly_average_count": 202.6,
++            "weekly_average_untracked_count": 98.1,
++            "weekly_average_untracked_increse_percent": 161.6
+         },
+         {
+             "diagnosed_date": "2020-07-18",
+@@ -1988,9 +1988,9 @@
+             "reported_count": 132,
+             "weekly_gain_ratio": 1.41,
+             "untracked_percent": 49.5,
+-            "weekly_average_count": 214.4,
+-            "weekly_average_untracked_count": 106.1,
+-            "weekly_average_untracked_increse_percent": 154.8
++            "weekly_average_count": 214.6,
++            "weekly_average_untracked_count": 106.3,
++            "weekly_average_untracked_increse_percent": 155
+         },
+         {
+             "diagnosed_date": "2020-07-19",
+@@ -1999,9 +1999,9 @@
+             "reported_count": 70,
+             "weekly_gain_ratio": 1.28,
+             "untracked_percent": 51.9,
+-            "weekly_average_count": 211.9,
+-            "weekly_average_untracked_count": 109.9,
+-            "weekly_average_untracked_increse_percent": 148.2
++            "weekly_average_count": 212,
++            "weekly_average_untracked_count": 110,
++            "weekly_average_untracked_increse_percent": 148.4
+         },
+         {
+             "diagnosed_date": "2020-07-20",
+@@ -2012,7 +2012,7 @@
+             "untracked_percent": 52.2,
+             "weekly_average_count": 219,
+             "weekly_average_untracked_count": 114.3,
+-            "weekly_average_untracked_increse_percent": 148.1
++            "weekly_average_untracked_increse_percent": 147.9
+         },
+         {
+             "diagnosed_date": "2020-07-21",
+@@ -2023,7 +2023,7 @@
+             "untracked_percent": 52.6,
+             "weekly_average_count": 232.4,
+             "weekly_average_untracked_count": 122.3,
+-            "weekly_average_untracked_increse_percent": 153.4
++            "weekly_average_untracked_increse_percent": 153.1
+         },
+         {
+             "diagnosed_date": "2020-07-22",
+@@ -2034,7 +2034,7 @@
+             "untracked_percent": 53.4,
+             "weekly_average_count": 242.9,
+             "weekly_average_untracked_count": 129.6,
+-            "weekly_average_untracked_increse_percent": 148.4
++            "weekly_average_untracked_increse_percent": 148.2
+         },
+         {
+             "diagnosed_date": "2020-07-23",
+@@ -2045,7 +2045,7 @@
+             "untracked_percent": 55.9,
+             "weekly_average_count": 254.3,
+             "weekly_average_untracked_count": 142.1,
+-            "weekly_average_untracked_increse_percent": 154.3
++            "weekly_average_untracked_increse_percent": 154
+         },
+         {
+             "diagnosed_date": "2020-07-24",
+@@ -2056,7 +2056,7 @@
+             "untracked_percent": 57.8,
+             "weekly_average_count": 249.6,
+             "weekly_average_untracked_count": 144.1,
+-            "weekly_average_untracked_increse_percent": 147.1
++            "weekly_average_untracked_increse_percent": 146.9
+         },
+         {
+             "diagnosed_date": "2020-07-25",
+@@ -2067,18 +2067,18 @@
+             "untracked_percent": 58,
+             "weekly_average_count": 250.3,
+             "weekly_average_untracked_count": 145.1,
+-            "weekly_average_untracked_increse_percent": 136.7
++            "weekly_average_untracked_increse_percent": 136.6
+         },
+         {
+             "diagnosed_date": "2020-07-26",
+             "count": 239,
+             "missing_count": 144,
+             "reported_count": 95,
+-            "weekly_gain_ratio": 1.22,
++            "weekly_gain_ratio": 1.21,
+             "untracked_percent": 57.8,
+             "weekly_average_count": 257.6,
+             "weekly_average_untracked_count": 148.9,
+-            "weekly_average_untracked_increse_percent": 135.5
++            "weekly_average_untracked_increse_percent": 135.3
+         },
+         {
+             "diagnosed_date": "2020-07-27",
+@@ -2126,14 +2126,14 @@
+         },
+         {
+             "diagnosed_date": "2020-07-31",
+-            "count": 462,
+-            "missing_count": 288,
++            "count": 463,
++            "missing_count": 289,
+             "reported_count": 174,
+             "weekly_gain_ratio": 1.15,
+             "untracked_percent": 59.2,
+-            "weekly_average_count": 287.1,
+-            "weekly_average_untracked_count": 169.9,
+-            "weekly_average_untracked_increse_percent": 117.8
++            "weekly_average_count": 287.3,
++            "weekly_average_untracked_count": 170,
++            "weekly_average_untracked_increse_percent": 117.9
+         },
+         {
+             "diagnosed_date": "2020-08-01",
+@@ -2142,9 +2142,9 @@
+             "reported_count": 167,
+             "weekly_gain_ratio": 1.25,
+             "untracked_percent": 60.8,
+-            "weekly_average_count": 312.4,
+-            "weekly_average_untracked_count": 189.9,
+-            "weekly_average_untracked_increse_percent": 130.8
++            "weekly_average_count": 312.6,
++            "weekly_average_untracked_count": 190,
++            "weekly_average_untracked_increse_percent": 130.9
+         },
+         {
+             "diagnosed_date": "2020-08-02",
+@@ -2153,9 +2153,9 @@
+             "reported_count": 113,
+             "weekly_gain_ratio": 1.24,
+             "untracked_percent": 60.9,
+-            "weekly_average_count": 320,
+-            "weekly_average_untracked_count": 194.9,
+-            "weekly_average_untracked_increse_percent": 130.9
++            "weekly_average_count": 320.1,
++            "weekly_average_untracked_count": 195,
++            "weekly_average_untracked_increse_percent": 131
+         },
+         {
+             "diagnosed_date": "2020-08-03",
+@@ -2164,9 +2164,9 @@
+             "reported_count": 121,
+             "weekly_gain_ratio": 1.34,
+             "untracked_percent": 60.1,
+-            "weekly_average_count": 338.1,
+-            "weekly_average_untracked_count": 203.1,
+-            "weekly_average_untracked_increse_percent": 138.5
++            "weekly_average_count": 338.3,
++            "weekly_average_untracked_count": 203.3,
++            "weekly_average_untracked_increse_percent": 138.6
+         },
+         {
+             "diagnosed_date": "2020-08-04",
+@@ -2175,9 +2175,9 @@
+             "reported_count": 115,
+             "weekly_gain_ratio": 1.34,
+             "untracked_percent": 61,
+-            "weekly_average_count": 344.3,
+-            "weekly_average_untracked_count": 209.9,
+-            "weekly_average_untracked_increse_percent": 139.4
++            "weekly_average_count": 344.4,
++            "weekly_average_untracked_count": 210,
++            "weekly_average_untracked_increse_percent": 139.5
+         },
+         {
+             "diagnosed_date": "2020-08-05",
+@@ -2186,9 +2186,9 @@
+             "reported_count": 101,
+             "weekly_gain_ratio": 1.34,
+             "untracked_percent": 60.6,
+-            "weekly_average_count": 346.1,
+-            "weekly_average_untracked_count": 209.9,
+-            "weekly_average_untracked_increse_percent": 136.3
++            "weekly_average_count": 346.3,
++            "weekly_average_untracked_count": 210,
++            "weekly_average_untracked_increse_percent": 136.4
+         },
+         {
+             "diagnosed_date": "2020-08-06",
+@@ -2197,19 +2197,19 @@
+             "reported_count": 136,
+             "weekly_gain_ratio": 1.34,
+             "untracked_percent": 61.6,
+-            "weekly_average_count": 345.1,
+-            "weekly_average_untracked_count": 212.7,
+-            "weekly_average_untracked_increse_percent": 140.9
++            "weekly_average_count": 345.3,
++            "weekly_average_untracked_count": 212.9,
++            "weekly_average_untracked_increse_percent": 141
+         },
+         {
+             "diagnosed_date": "2020-08-07",
+-            "count": 461,
+-            "missing_count": 308,
++            "count": 462,
++            "missing_count": 309,
+             "reported_count": 153,
+             "weekly_gain_ratio": 1.2,
+             "untracked_percent": 62.5,
+-            "weekly_average_count": 345,
+-            "weekly_average_untracked_count": 215.6,
++            "weekly_average_count": 345.1,
++            "weekly_average_untracked_count": 215.7,
+             "weekly_average_untracked_increse_percent": 126.9
+         },
+         {
+@@ -2219,8 +2219,8 @@
+             "reported_count": 156,
+             "weekly_gain_ratio": 1.08,
+             "untracked_percent": 62.3,
+-            "weekly_average_count": 338.9,
+-            "weekly_average_untracked_count": 211,
++            "weekly_average_count": 339,
++            "weekly_average_untracked_count": 211.1,
+             "weekly_average_untracked_increse_percent": 111.1
+         },
+         {
+@@ -2230,8 +2230,8 @@
+             "reported_count": 115,
+             "weekly_gain_ratio": 1.08,
+             "untracked_percent": 62.8,
+-            "weekly_average_count": 344.4,
+-            "weekly_average_untracked_count": 216.3,
++            "weekly_average_count": 344.6,
++            "weekly_average_untracked_count": 216.4,
+             "weekly_average_untracked_increse_percent": 111
+         },
+         {
+@@ -2241,8 +2241,8 @@
+             "reported_count": 79,
+             "weekly_gain_ratio": 0.99,
+             "untracked_percent": 63.6,
+-            "weekly_average_count": 335.7,
+-            "weekly_average_untracked_count": 213.6,
++            "weekly_average_count": 335.9,
++            "weekly_average_untracked_count": 213.7,
+             "weekly_average_untracked_increse_percent": 105.1
+         },
+         {
+@@ -2252,8 +2252,8 @@
+             "reported_count": 71,
+             "weekly_gain_ratio": 0.92,
+             "untracked_percent": 63.6,
+-            "weekly_average_count": 318.4,
+-            "weekly_average_untracked_count": 202.6,
++            "weekly_average_count": 318.6,
++            "weekly_average_untracked_count": 202.7,
+             "weekly_average_untracked_increse_percent": 96.5
+         },
+         {
+@@ -2263,8 +2263,8 @@
+             "reported_count": 73,
+             "weekly_gain_ratio": 0.9,
+             "untracked_percent": 64.2,
+-            "weekly_average_count": 312.6,
+-            "weekly_average_untracked_count": 200.7,
++            "weekly_average_count": 312.7,
++            "weekly_average_untracked_count": 200.9,
+             "weekly_average_untracked_increse_percent": 95.6
+         },
+         {
+@@ -2273,9 +2273,9 @@
+             "missing_count": 128,
+             "reported_count": 78,
+             "weekly_gain_ratio": 0.84,
+-            "untracked_percent": 64.3,
+-            "weekly_average_count": 290.6,
+-            "weekly_average_untracked_count": 187,
++            "untracked_percent": 64.4,
++            "weekly_average_count": 290.7,
++            "weekly_average_untracked_count": 187.1,
+             "weekly_average_untracked_increse_percent": 87.9
+         },
+         {
+@@ -2287,7 +2287,7 @@
+             "untracked_percent": 63.4,
+             "weekly_average_count": 280.3,
+             "weekly_average_untracked_count": 177.6,
+-            "weekly_average_untracked_increse_percent": 82.4
++            "weekly_average_untracked_increse_percent": 82.3
+         },
+         {
+             "diagnosed_date": "2020-08-15",
+@@ -2331,7 +2331,7 @@
+             "untracked_percent": 62,
+             "weekly_average_count": 261.4,
+             "weekly_average_untracked_count": 162,
+-            "weekly_average_untracked_increse_percent": 80
++            "weekly_average_untracked_increse_percent": 79.9
+         },
+         {
+             "diagnosed_date": "2020-08-19",
+@@ -2342,7 +2342,7 @@
+             "untracked_percent": 61.5,
+             "weekly_average_count": 256.3,
+             "weekly_average_untracked_count": 157.6,
+-            "weekly_average_untracked_increse_percent": 78.5
++            "weekly_average_untracked_increse_percent": 78.4
+         },
+         {
+             "diagnosed_date": "2020-08-20",
+@@ -2544,14 +2544,14 @@
+         },
+         {
+             "diagnosed_date": "2020-09-07",
+-            "count": 76,
+-            "missing_count": 37,
++            "count": 77,
++            "missing_count": 38,
+             "reported_count": 39,
+             "weekly_gain_ratio": 0.74,
+             "untracked_percent": 55.7,
+-            "weekly_average_count": 147.3,
+-            "weekly_average_untracked_count": 82,
+-            "weekly_average_untracked_increse_percent": 68.3
++            "weekly_average_count": 147.4,
++            "weekly_average_untracked_count": 82.1,
++            "weekly_average_untracked_increse_percent": 68.4
+         },
+         {
+             "diagnosed_date": "2020-09-08",
+@@ -2559,10 +2559,10 @@
+             "missing_count": 97,
+             "reported_count": 73,
+             "weekly_gain_ratio": 0.75,
+-            "untracked_percent": 55.9,
+-            "weekly_average_count": 147.3,
+-            "weekly_average_untracked_count": 82.4,
+-            "weekly_average_untracked_increse_percent": 70.4
++            "untracked_percent": 56,
++            "weekly_average_count": 147.4,
++            "weekly_average_untracked_count": 82.6,
++            "weekly_average_untracked_increse_percent": 70.5
+         },
+         {
+             "diagnosed_date": "2020-09-09",
+@@ -2571,9 +2571,9 @@
+             "reported_count": 70,
+             "weekly_gain_ratio": 0.81,
+             "untracked_percent": 55.2,
+-            "weekly_average_count": 148.4,
+-            "weekly_average_untracked_count": 81.9,
+-            "weekly_average_untracked_increse_percent": 75.5
++            "weekly_average_count": 148.6,
++            "weekly_average_untracked_count": 82,
++            "weekly_average_untracked_increse_percent": 75.6
+         },
+         {
+             "diagnosed_date": "2020-09-10",
+@@ -2582,9 +2582,9 @@
+             "reported_count": 116,
+             "weekly_gain_ratio": 0.89,
+             "untracked_percent": 55.5,
+-            "weekly_average_count": 157.7,
+-            "weekly_average_untracked_count": 87.6,
+-            "weekly_average_untracked_increse_percent": 84
++            "weekly_average_count": 157.9,
++            "weekly_average_untracked_count": 87.7,
++            "weekly_average_untracked_increse_percent": 84.1
+         },
+         {
+             "diagnosed_date": "2020-09-11",
+@@ -2592,10 +2592,10 @@
+             "missing_count": 91,
+             "reported_count": 96,
+             "weekly_gain_ratio": 1,
+-            "untracked_percent": 53.9,
+-            "weekly_average_count": 165,
+-            "weekly_average_untracked_count": 89,
+-            "weekly_average_untracked_increse_percent": 92.6
++            "untracked_percent": 54,
++            "weekly_average_count": 165.1,
++            "weekly_average_untracked_count": 89.1,
++            "weekly_average_untracked_increse_percent": 92.7
+         },
+         {
+             "diagnosed_date": "2020-09-12",
+@@ -2604,9 +2604,9 @@
+             "reported_count": 115,
+             "weekly_gain_ratio": 1.1,
+             "untracked_percent": 52.5,
+-            "weekly_average_count": 171.4,
+-            "weekly_average_untracked_count": 90,
+-            "weekly_average_untracked_increse_percent": 101.8
++            "weekly_average_count": 171.6,
++            "weekly_average_untracked_count": 90.1,
++            "weekly_average_untracked_increse_percent": 101.9
+         },
+         {
+             "diagnosed_date": "2020-09-13",
+@@ -2615,9 +2615,9 @@
+             "reported_count": 62,
+             "weekly_gain_ratio": 1.17,
+             "untracked_percent": 53.6,
+-            "weekly_average_count": 175.7,
+-            "weekly_average_untracked_count": 94.1,
+-            "weekly_average_untracked_increse_percent": 112.5
++            "weekly_average_count": 175.9,
++            "weekly_average_untracked_count": 94.3,
++            "weekly_average_untracked_increse_percent": 112.6
+         },
+         {
+             "diagnosed_date": "2020-09-14",
+@@ -2628,7 +2628,7 @@
+             "untracked_percent": 53.3,
+             "weekly_average_count": 176.3,
+             "weekly_average_untracked_count": 93.9,
+-            "weekly_average_untracked_increse_percent": 114.5
++            "weekly_average_untracked_increse_percent": 114.3
+         },
+         {
+             "diagnosed_date": "2020-09-15",
+@@ -2639,7 +2639,7 @@
+             "untracked_percent": 52.1,
+             "weekly_average_count": 179.3,
+             "weekly_average_untracked_count": 93.4,
+-            "weekly_average_untracked_increse_percent": 113.3
++            "weekly_average_untracked_increse_percent": 113.1
+         },
+         {
+             "diagnosed_date": "2020-09-16",
+@@ -2650,7 +2650,7 @@
+             "untracked_percent": 51.8,
+             "weekly_average_count": 181.3,
+             "weekly_average_untracked_count": 94,
+-            "weekly_average_untracked_increse_percent": 114.8
++            "weekly_average_untracked_increse_percent": 114.6
+         },
+         {
+             "diagnosed_date": "2020-09-17",
+@@ -2661,7 +2661,7 @@
+             "untracked_percent": 49.5,
+             "weekly_average_count": 166.3,
+             "weekly_average_untracked_count": 82.4,
+-            "weekly_average_untracked_increse_percent": 94.1
++            "weekly_average_untracked_increse_percent": 94
+         },
+         {
+             "diagnosed_date": "2020-09-18",
+@@ -2672,7 +2672,7 @@
+             "untracked_percent": 50.5,
+             "weekly_average_count": 171,
+             "weekly_average_untracked_count": 86.4,
+-            "weekly_average_untracked_increse_percent": 97.1
++            "weekly_average_untracked_increse_percent": 97
+         },
+         {
+             "diagnosed_date": "2020-09-19",
+@@ -2683,7 +2683,7 @@
+             "untracked_percent": 52.2,
+             "weekly_average_count": 169.9,
+             "weekly_average_untracked_count": 88.7,
+-            "weekly_average_untracked_increse_percent": 98.6
++            "weekly_average_untracked_increse_percent": 98.4
+         },
+         {
+             "diagnosed_date": "2020-09-20",
+@@ -2694,18 +2694,18 @@
+             "untracked_percent": 52.3,
+             "weekly_average_count": 172.1,
+             "weekly_average_untracked_count": 90,
+-            "weekly_average_untracked_increse_percent": 95.6
++            "weekly_average_untracked_increse_percent": 95.5
+         },
+         {
+             "diagnosed_date": "2020-09-21",
+-            "count": 97,
+-            "missing_count": 55,
++            "count": 98,
++            "missing_count": 56,
+             "reported_count": 42,
+             "weekly_gain_ratio": 0.99,
+             "untracked_percent": 53.2,
+-            "weekly_average_count": 174.6,
+-            "weekly_average_untracked_count": 92.9,
+-            "weekly_average_untracked_increse_percent": 98.9
++            "weekly_average_count": 174.7,
++            "weekly_average_untracked_count": 93,
++            "weekly_average_untracked_increse_percent": 99.1
+         },
+         {
+             "diagnosed_date": "2020-09-22",
+@@ -2713,10 +2713,10 @@
+             "missing_count": 41,
+             "reported_count": 47,
+             "weekly_gain_ratio": 0.89,
+-            "untracked_percent": 53.3,
+-            "weekly_average_count": 159.9,
+-            "weekly_average_untracked_count": 85.3,
+-            "weekly_average_untracked_increse_percent": 91.3
++            "untracked_percent": 53.4,
++            "weekly_average_count": 160,
++            "weekly_average_untracked_count": 85.4,
++            "weekly_average_untracked_increse_percent": 91.4
+         },
+         {
+             "diagnosed_date": "2020-09-23",
+@@ -2724,10 +2724,10 @@
+             "missing_count": 28,
+             "reported_count": 31,
+             "weekly_gain_ratio": 0.8,
+-            "untracked_percent": 53.4,
+-            "weekly_average_count": 145,
+-            "weekly_average_untracked_count": 77.4,
+-            "weekly_average_untracked_increse_percent": 82.4
++            "untracked_percent": 53.5,
++            "weekly_average_count": 145.1,
++            "weekly_average_untracked_count": 77.6,
++            "weekly_average_untracked_increse_percent": 82.5
+         },
+         {
+             "diagnosed_date": "2020-09-24",
+@@ -2736,9 +2736,9 @@
+             "reported_count": 115,
+             "weekly_gain_ratio": 0.89,
+             "untracked_percent": 52.2,
+-            "weekly_average_count": 148.1,
+-            "weekly_average_untracked_count": 77.3,
+-            "weekly_average_untracked_increse_percent": 93.8
++            "weekly_average_count": 148.3,
++            "weekly_average_untracked_count": 77.4,
++            "weekly_average_untracked_increse_percent": 93.9
+         },
+         {
+             "diagnosed_date": "2020-09-25",
+@@ -2746,10 +2746,10 @@
+             "missing_count": 104,
+             "reported_count": 91,
+             "weekly_gain_ratio": 0.85,
+-            "untracked_percent": 51.9,
+-            "weekly_average_count": 144.6,
+-            "weekly_average_untracked_count": 75.1,
+-            "weekly_average_untracked_increse_percent": 86.9
++            "untracked_percent": 52,
++            "weekly_average_count": 144.7,
++            "weekly_average_untracked_count": 75.3,
++            "weekly_average_untracked_increse_percent": 87.1
+         },
+         {
+             "diagnosed_date": "2020-09-26",
+@@ -2758,9 +2758,9 @@
+             "reported_count": 111,
+             "weekly_gain_ratio": 0.89,
+             "untracked_percent": 52.4,
+-            "weekly_average_count": 151.9,
+-            "weekly_average_untracked_count": 79.6,
+-            "weekly_average_untracked_increse_percent": 89.7
++            "weekly_average_count": 152,
++            "weekly_average_untracked_count": 79.7,
++            "weekly_average_untracked_increse_percent": 89.9
+         },
+         {
+             "diagnosed_date": "2020-09-27",
+@@ -2768,10 +2768,10 @@
+             "missing_count": 84,
+             "reported_count": 60,
+             "weekly_gain_ratio": 0.87,
+-            "untracked_percent": 52.4,
+-            "weekly_average_count": 149.3,
+-            "weekly_average_untracked_count": 78.3,
+-            "weekly_average_untracked_increse_percent": 87
++            "untracked_percent": 52.5,
++            "weekly_average_count": 149.4,
++            "weekly_average_untracked_count": 78.4,
++            "weekly_average_untracked_increse_percent": 87.1
+         },
+         {
+             "diagnosed_date": "2020-09-28",
+@@ -2782,17 +2782,17 @@
+             "untracked_percent": 51.8,
+             "weekly_average_count": 146.6,
+             "weekly_average_untracked_count": 75.9,
+-            "weekly_average_untracked_increse_percent": 81.7
++            "weekly_average_untracked_increse_percent": 81.6
+         },
+         {
+             "diagnosed_date": "2020-09-29",
+-            "count": 211,
+-            "missing_count": 125,
++            "count": 212,
++            "missing_count": 126,
+             "reported_count": 86,
+             "weekly_gain_ratio": 1.03,
+             "untracked_percent": 53.6,
+-            "weekly_average_count": 164.1,
+-            "weekly_average_untracked_count": 87.9,
++            "weekly_average_count": 164.3,
++            "weekly_average_untracked_count": 88,
+             "weekly_average_untracked_increse_percent": 103
+         },
+         {
+@@ -2800,22 +2800,22 @@
+             "count": 194,
+             "missing_count": 95,
+             "reported_count": 99,
+-            "weekly_gain_ratio": 1.27,
+-            "untracked_percent": 53.1,
+-            "weekly_average_count": 183.4,
+-            "weekly_average_untracked_count": 97.4,
++            "weekly_gain_ratio": 1.26,
++            "untracked_percent": 53.2,
++            "weekly_average_count": 183.6,
++            "weekly_average_untracked_count": 97.6,
+             "weekly_average_untracked_increse_percent": 125.8
+         },
+         {
+             "diagnosed_date": "2020-10-01",
+-            "count": 234,
+-            "missing_count": 107,
++            "count": 235,
++            "missing_count": 108,
+             "reported_count": 127,
+             "weekly_gain_ratio": 1.28,
+             "untracked_percent": 53.7,
+-            "weekly_average_count": 189.3,
+-            "weekly_average_untracked_count": 101.6,
+-            "weekly_average_untracked_increse_percent": 131.4
++            "weekly_average_count": 189.6,
++            "weekly_average_untracked_count": 101.9,
++            "weekly_average_untracked_increse_percent": 131.5
+         },
+         {
+             "diagnosed_date": "2020-10-02",
+@@ -2823,10 +2823,10 @@
+             "missing_count": 105,
+             "reported_count": 91,
+             "weekly_gain_ratio": 1.31,
+-            "untracked_percent": 53.7,
+-            "weekly_average_count": 189.4,
+-            "weekly_average_untracked_count": 101.7,
+-            "weekly_average_untracked_increse_percent": 135.4
++            "untracked_percent": 53.8,
++            "weekly_average_count": 189.7,
++            "weekly_average_untracked_count": 102,
++            "weekly_average_untracked_increse_percent": 135.5
+         },
+         {
+             "diagnosed_date": "2020-10-03",
+@@ -2834,10 +2834,10 @@
+             "missing_count": 119,
+             "reported_count": 86,
+             "weekly_gain_ratio": 1.19,
+-            "untracked_percent": 53.3,
+-            "weekly_average_count": 180.3,
+-            "weekly_average_untracked_count": 96.1,
+-            "weekly_average_untracked_increse_percent": 120.8
++            "untracked_percent": 53.4,
++            "weekly_average_count": 180.6,
++            "weekly_average_untracked_count": 96.4,
++            "weekly_average_untracked_increse_percent": 121
+         },
+         {
+             "diagnosed_date": "2020-10-04",
+@@ -2846,42 +2846,42 @@
+             "reported_count": 46,
+             "weekly_gain_ratio": 1.17,
+             "untracked_percent": 53.1,
+-            "weekly_average_count": 175,
+-            "weekly_average_untracked_count": 92.9,
+-            "weekly_average_untracked_increse_percent": 118.6
++            "weekly_average_count": 175.3,
++            "weekly_average_untracked_count": 93.1,
++            "weekly_average_untracked_increse_percent": 118.8
+         },
+         {
+             "diagnosed_date": "2020-10-05",
+-            "count": 65,
+-            "missing_count": 32,
++            "count": 66,
++            "missing_count": 33,
+             "reported_count": 33,
+             "weekly_gain_ratio": 1.18,
+-            "untracked_percent": 53.1,
+-            "weekly_average_count": 173.1,
+-            "weekly_average_untracked_count": 92,
+-            "weekly_average_untracked_increse_percent": 121.3
++            "untracked_percent": 53.2,
++            "weekly_average_count": 173.6,
++            "weekly_average_untracked_count": 92.4,
++            "weekly_average_untracked_increse_percent": 121.8
+         },
+         {
+             "diagnosed_date": "2020-10-06",
+-            "count": 176,
++            "count": 177,
+             "missing_count": 113,
+-            "reported_count": 63,
+-            "weekly_gain_ratio": 1.02,
++            "reported_count": 64,
++            "weekly_gain_ratio": 1.03,
+             "untracked_percent": 53.7,
+-            "weekly_average_count": 168.1,
+-            "weekly_average_untracked_count": 90.3,
+-            "weekly_average_untracked_increse_percent": 102.8
++            "weekly_average_count": 168.6,
++            "weekly_average_untracked_count": 90.6,
++            "weekly_average_untracked_increse_percent": 102.9
+         },
+         {
+             "diagnosed_date": "2020-10-07",
+             "count": 140,
+             "missing_count": 90,
+             "reported_count": 50,
+-            "weekly_gain_ratio": 0.87,
++            "weekly_gain_ratio": 0.88,
+             "untracked_percent": 55.9,
+-            "weekly_average_count": 160.4,
+-            "weekly_average_untracked_count": 89.6,
+-            "weekly_average_untracked_increse_percent": 91.9
++            "weekly_average_count": 160.9,
++            "weekly_average_untracked_count": 89.9,
++            "weekly_average_untracked_increse_percent": 92.1
+         },
+         {
+             "diagnosed_date": "2020-10-08",
+@@ -2889,10 +2889,10 @@
+             "missing_count": 158,
+             "reported_count": 90,
+             "weekly_gain_ratio": 0.86,
+-            "untracked_percent": 59.7,
+-            "weekly_average_count": 162.4,
+-            "weekly_average_untracked_count": 96.9,
+-            "weekly_average_untracked_increse_percent": 95.4
++            "untracked_percent": 59.6,
++            "weekly_average_count": 162.7,
++            "weekly_average_untracked_count": 97,
++            "weekly_average_untracked_increse_percent": 95.2
+         },
+         {
+             "diagnosed_date": "2020-10-09",
+@@ -2901,9 +2901,9 @@
+             "reported_count": 84,
+             "weekly_gain_ratio": 0.86,
+             "untracked_percent": 60.5,
+-            "weekly_average_count": 163.4,
+-            "weekly_average_untracked_count": 98.9,
+-            "weekly_average_untracked_increse_percent": 97.2
++            "weekly_average_count": 163.7,
++            "weekly_average_untracked_count": 99,
++            "weekly_average_untracked_increse_percent": 97.1
+         },
+         {
+             "diagnosed_date": "2020-10-10",
+@@ -2912,9 +2912,9 @@
+             "reported_count": 112,
+             "weekly_gain_ratio": 0.94,
+             "untracked_percent": 59.7,
+-            "weekly_average_count": 169.6,
+-            "weekly_average_untracked_count": 101.3,
+-            "weekly_average_untracked_increse_percent": 105.3
++            "weekly_average_count": 169.9,
++            "weekly_average_untracked_count": 101.4,
++            "weekly_average_untracked_increse_percent": 105.2
+         },
+         {
+             "diagnosed_date": "2020-10-11",
+@@ -2923,9 +2923,9 @@
+             "reported_count": 57,
+             "weekly_gain_ratio": 1,
+             "untracked_percent": 60.1,
+-            "weekly_average_count": 175.1,
+-            "weekly_average_untracked_count": 105.3,
+-            "weekly_average_untracked_increse_percent": 113.4
++            "weekly_average_count": 175.4,
++            "weekly_average_untracked_count": 105.4,
++            "weekly_average_untracked_increse_percent": 113.2
+         },
+         {
+             "diagnosed_date": "2020-10-12",
+@@ -2933,10 +2933,10 @@
+             "missing_count": 39,
+             "reported_count": 39,
+             "weekly_gain_ratio": 1.02,
+-            "untracked_percent": 60.1,
+-            "weekly_average_count": 177,
++            "untracked_percent": 60,
++            "weekly_average_count": 177.1,
+             "weekly_average_untracked_count": 106.3,
+-            "weekly_average_untracked_increse_percent": 115.5
++            "weekly_average_untracked_increse_percent": 115
+         },
+         {
+             "diagnosed_date": "2020-10-13",
+@@ -2947,29 +2947,29 @@
+             "untracked_percent": 59.6,
+             "weekly_average_count": 175.6,
+             "weekly_average_untracked_count": 104.7,
+-            "weekly_average_untracked_increse_percent": 116
++            "weekly_average_untracked_increse_percent": 115.6
+         },
+         {
+             "diagnosed_date": "2020-10-14",
+             "count": 177,
+             "missing_count": 92,
+             "reported_count": 85,
+-            "weekly_gain_ratio": 1.13,
++            "weekly_gain_ratio": 1.12,
+             "untracked_percent": 58,
+             "weekly_average_count": 180.9,
+             "weekly_average_untracked_count": 105,
+-            "weekly_average_untracked_increse_percent": 117.2
++            "weekly_average_untracked_increse_percent": 116.9
+         },
+         {
+             "diagnosed_date": "2020-10-15",
+             "count": 284,
+             "missing_count": 160,
+             "reported_count": 124,
+-            "weekly_gain_ratio": 1.15,
++            "weekly_gain_ratio": 1.14,
+             "untracked_percent": 56.6,
+             "weekly_average_count": 186,
+             "weekly_average_untracked_count": 105.3,
+-            "weekly_average_untracked_increse_percent": 108.7
++            "weekly_average_untracked_increse_percent": 108.5
+         },
+         {
+             "diagnosed_date": "2020-10-16",
+@@ -2980,7 +2980,7 @@
+             "untracked_percent": 55.9,
+             "weekly_average_count": 183.1,
+             "weekly_average_untracked_count": 102.4,
+-            "weekly_average_untracked_increse_percent": 103.6
++            "weekly_average_untracked_increse_percent": 103.5
+         },
+         {
+             "diagnosed_date": "2020-10-17",
+@@ -2991,7 +2991,7 @@
+             "untracked_percent": 56.2,
+             "weekly_average_count": 181.3,
+             "weekly_average_untracked_count": 101.9,
+-            "weekly_average_untracked_increse_percent": 100.6
++            "weekly_average_untracked_increse_percent": 100.4
+         },
+         {
+             "diagnosed_date": "2020-10-18",
+@@ -3002,7 +3002,7 @@
+             "untracked_percent": 56,
+             "weekly_average_count": 179.3,
+             "weekly_average_untracked_count": 100.4,
+-            "weekly_average_untracked_increse_percent": 95.4
++            "weekly_average_untracked_increse_percent": 95.3
+         },
+         {
+             "diagnosed_date": "2020-10-19",
+@@ -3234,17 +3234,6 @@
+             "weekly_average_count": 201.7,
+             "weekly_average_untracked_count": 115.6,
+             "weekly_average_untracked_increse_percent": 126.4
+-        },
+-        {
+-            "diagnosed_date": "2020-11-09",
+-            "count": 157,
+-            "missing_count": 69,
+-            "reported_count": 88,
+-            "weekly_gain_ratio": 1.27,
+-            "untracked_percent": 55.7,
+-            "weekly_average_count": 211.7,
+-            "weekly_average_untracked_count": 118,
+-            "weekly_average_untracked_increse_percent": 128.5
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/data.json b/data/data.json
+index 1e9498d76e4..240b1f8a63c 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -1,6 +1,6 @@
+ {
+     "contacts": {
+-        "date": "2020\/11\/09 19:30",
++        "date": "2020\/11\/06 19:45",
+         "data": [
+             {
+                 "日付": "2020-01-29T08:00:00.000Z",
+@@ -3103,39 +3103,6 @@
+                 "w": 4,
+                 "short_date": "11\/05",
+                 "小計": 331
+-            },
+-            {
+-                "日付": "2020-11-06T08:00:00.000Z",
+-                "曜日": "金",
+-                "9-13時": 132,
+-                "13-17時": 96,
+-                "17-21時": 135,
+-                "date": "2020-11-06",
+-                "w": 5,
+-                "short_date": "11\/06",
+-                "小計": 363
+-            },
+-            {
+-                "日付": "2020-11-07T08:00:00.000Z",
+-                "曜日": "土",
+-                "9-13時": 200,
+-                "13-17時": 145,
+-                "17-21時": 135,
+-                "date": "2020-11-07",
+-                "w": 6,
+-                "short_date": "11\/07",
+-                "小計": 480
+-            },
+-            {
+-                "日付": "2020-11-08T08:00:00.000Z",
+-                "曜日": "日",
+-                "9-13時": 161,
+-                "13-17時": 112,
+-                "17-21時": 109,
+-                "date": "2020-11-08",
+-                "w": 0,
+-                "short_date": "11\/08",
+-                "小計": 382
+             }
+         ]
+     },
+@@ -6071,7 +6038,7 @@
+         ]
+     },
+     "patients": {
+-        "date": "2020\/11\/09 19:30",
++        "date": "2020\/11\/06 19:45",
+         "data": [
+             {
+                 "リリース日": "2020-01-24T08:00:00.000Z",
+@@ -107353,6 +107320,14 @@
+                 "退院": "○",
+                 "date": "2020-07-31"
+             },
++            {
++                "リリース日": "2020-07-31T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "70代",
++                "性別": "男性",
++                "退院": null,
++                "date": "2020-07-31"
++            },
+             {
+                 "リリース日": "2020-07-31T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -126545,6 +126520,14 @@
+                 "退院": "○",
+                 "date": "2020-08-07"
+             },
++            {
++                "リリース日": "2020-08-07T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "40代",
++                "性別": "男性",
++                "退院": "○",
++                "date": "2020-08-07"
++            },
+             {
+                 "リリース日": "2020-08-07T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -180617,6 +180600,14 @@
+                 "退院": "○",
+                 "date": "2020-09-07"
+             },
++            {
++                "リリース日": "2020-09-07T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "70代",
++                "性別": "女性",
++                "退院": "○",
++                "date": "2020-09-07"
++            },
+             {
+                 "リリース日": "2020-09-07T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -200041,6 +200032,14 @@
+                 "退院": "○",
+                 "date": "2020-09-21"
+             },
++            {
++                "リリース日": "2020-09-21T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "70代",
++                "性別": "女性",
++                "退院": "○",
++                "date": "2020-09-21"
++            },
+             {
+                 "リリース日": "2020-09-21T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -210089,6 +210088,14 @@
+                 "退院": "○",
+                 "date": "2020-09-29"
+             },
++            {
++                "リリース日": "2020-09-29T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "10歳未満",
++                "性別": "男性",
++                "退院": "○",
++                "date": "2020-09-29"
++            },
+             {
+                 "リリース日": "2020-09-29T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -212809,6 +212816,14 @@
+                 "退院": "○",
+                 "date": "2020-10-01"
+             },
++            {
++                "リリース日": "2020-10-01T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "80代",
++                "性別": "女性",
++                "退院": null,
++                "date": "2020-10-01"
++            },
+             {
+                 "リリース日": "2020-10-01T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -218249,6 +218264,14 @@
+                 "退院": "○",
+                 "date": "2020-10-05"
+             },
++            {
++                "リリース日": "2020-10-05T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "60代",
++                "性別": "男性",
++                "退院": null,
++                "date": "2020-10-05"
++            },
+             {
+                 "リリース日": "2020-10-05T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -219721,6 +219744,14 @@
+                 "退院": "○",
+                 "date": "2020-10-06"
+             },
++            {
++                "リリース日": "2020-10-06T08:00:00.000Z",
++                "居住地": "都内",
++                "年代": "30代",
++                "性別": "女性",
++                "退院": "○",
++                "date": "2020-10-06"
++            },
+             {
+                 "リリース日": "2020-10-06T08:00:00.000Z",
+                 "居住地": "都内",
+@@ -265443,7 +265474,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265451,7 +265482,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265459,7 +265490,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265467,7 +265498,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265475,7 +265506,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265483,7 +265514,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265491,7 +265522,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265499,7 +265530,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265507,7 +265538,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265515,7 +265546,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265523,7 +265554,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265531,7 +265562,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265539,7 +265570,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265547,7 +265578,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "80代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265555,7 +265586,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265563,7 +265594,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265571,7 +265602,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265579,7 +265610,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265587,7 +265618,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265595,7 +265626,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265603,7 +265634,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265611,7 +265642,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265619,7 +265650,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265627,7 +265658,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265635,7 +265666,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265643,7 +265674,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265651,7 +265682,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265659,7 +265690,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265667,7 +265698,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265675,7 +265706,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265683,7 +265714,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265691,7 +265722,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265699,7 +265730,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265707,7 +265738,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265715,7 +265746,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265723,7 +265754,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265731,7 +265762,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265739,7 +265770,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265747,7 +265778,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265755,7 +265786,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265763,7 +265794,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265771,7 +265802,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265779,7 +265810,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "80代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265787,7 +265818,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265795,7 +265826,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265803,7 +265834,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265811,7 +265842,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265819,7 +265850,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265827,7 +265858,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265835,7 +265866,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265843,7 +265874,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265851,7 +265882,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265859,7 +265890,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "80代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265867,7 +265898,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265875,7 +265906,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265883,7 +265914,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265891,7 +265922,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265899,7 +265930,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265907,7 +265938,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265915,7 +265946,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265923,7 +265954,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265931,7 +265962,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265939,7 +265970,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265947,7 +265978,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265955,7 +265986,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -265963,7 +265994,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265971,7 +266002,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265979,7 +266010,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265987,7 +266018,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -265995,7 +266026,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266003,7 +266034,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266011,7 +266042,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266019,7 +266050,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266027,7 +266058,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266035,7 +266066,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266043,7 +266074,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266051,7 +266082,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266059,7 +266090,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266067,7 +266098,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266075,7 +266106,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266083,7 +266114,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266091,7 +266122,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266099,7 +266130,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266107,7 +266138,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266115,7 +266146,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266123,7 +266154,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266131,7 +266162,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266139,7 +266170,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266147,7 +266178,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266155,7 +266186,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266163,7 +266194,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266171,7 +266202,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266179,7 +266210,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266187,7 +266218,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266195,7 +266226,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266203,7 +266234,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266211,7 +266242,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266219,7 +266250,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266227,7 +266258,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266235,7 +266266,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "80代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266243,7 +266274,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266251,7 +266282,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266259,7 +266290,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266267,7 +266298,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266275,7 +266306,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266283,7 +266314,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266291,7 +266322,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266299,7 +266330,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266307,7 +266338,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266315,7 +266346,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266323,7 +266354,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266331,7 +266362,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266339,7 +266370,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266347,7 +266378,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266355,7 +266386,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266363,7 +266394,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266371,7 +266402,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266379,7 +266410,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266387,7 +266418,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266395,7 +266426,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266403,7 +266434,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266411,7 +266442,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "80代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266419,7 +266450,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266427,7 +266458,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10歳未満",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266435,7 +266466,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266443,7 +266474,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266451,7 +266482,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266459,7 +266490,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266467,7 +266498,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266475,7 +266506,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266483,7 +266514,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266491,7 +266522,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266499,7 +266530,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266507,7 +266538,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266515,7 +266546,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266523,7 +266554,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266531,7 +266562,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266539,7 +266570,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266547,7 +266578,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266555,7 +266586,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266563,7 +266594,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266571,7 +266602,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266579,7 +266610,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266587,7 +266618,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266595,7 +266626,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266603,7 +266634,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266611,7 +266642,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266619,7 +266650,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266627,7 +266658,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266635,7 +266666,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266643,7 +266674,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266651,7 +266682,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266659,7 +266690,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266667,7 +266698,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266675,7 +266706,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266683,7 +266714,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266691,7 +266722,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266699,7 +266730,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266707,7 +266738,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266715,7 +266746,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266723,7 +266754,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266731,7 +266762,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266739,7 +266770,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266747,7 +266778,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266755,7 +266786,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266763,7 +266794,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266771,7 +266802,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266779,7 +266810,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266787,7 +266818,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266795,7 +266826,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266803,7 +266834,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266811,7 +266842,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266819,7 +266850,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266827,7 +266858,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266835,7 +266866,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266843,7 +266874,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266851,7 +266882,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266859,7 +266890,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266867,7 +266898,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266875,7 +266906,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266883,7 +266914,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266891,7 +266922,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266899,7 +266930,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "10代",
+                 "性別": "女性",
+                 "退院": null,
+@@ -266907,7 +266938,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "40代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266915,7 +266946,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "60代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266923,7 +266954,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都外",
++                "居住地": null,
+                 "年代": "70代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266931,7 +266962,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "20代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266939,7 +266970,7 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
++                "居住地": null,
+                 "年代": "30代",
+                 "性別": "男性",
+                 "退院": null,
+@@ -266947,1272 +266978,16 @@
+             },
+             {
+                 "リリース日": "2020-11-08T08:00:00.000Z",
+-                "居住地": "都内",
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-08"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "90代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "90代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10歳未満",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10歳未満",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10歳未満",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10歳未満",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "90代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "70代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10歳未満",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+                 "居住地": null,
+                 "年代": "50代",
+                 "性別": "女性",
+                 "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "10代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "60代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "20代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "30代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "80代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "40代",
+-                "性別": "男性",
+-                "退院": null,
+-                "date": "2020-11-09"
+-            },
+-            {
+-                "リリース日": "2020-11-09T08:00:00.000Z",
+-                "居住地": null,
+-                "年代": "50代",
+-                "性別": "女性",
+-                "退院": null,
+-                "date": "2020-11-09"
++                "date": "2020-11-08"
+             }
+         ]
+     },
+     "patients_summary": {
+-        "date": "2020\/11\/09 19:30",
++        "date": "2020\/11\/06 19:45",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -268972,7 +267747,7 @@
+             },
+             {
+                 "日付": "2020-07-31T08:00:00.000Z",
+-                "小計": 462
++                "小計": 463
+             },
+             {
+                 "日付": "2020-08-01T08:00:00.000Z",
+@@ -269000,7 +267775,7 @@
+             },
+             {
+                 "日付": "2020-08-07T08:00:00.000Z",
+-                "小計": 461
++                "小計": 462
+             },
+             {
+                 "日付": "2020-08-08T08:00:00.000Z",
+@@ -269124,7 +267899,7 @@
+             },
+             {
+                 "日付": "2020-09-07T08:00:00.000Z",
+-                "小計": 76
++                "小計": 77
+             },
+             {
+                 "日付": "2020-09-08T08:00:00.000Z",
+@@ -269180,7 +267955,7 @@
+             },
+             {
+                 "日付": "2020-09-21T08:00:00.000Z",
+-                "小計": 97
++                "小計": 98
+             },
+             {
+                 "日付": "2020-09-22T08:00:00.000Z",
+@@ -269212,7 +267987,7 @@
+             },
+             {
+                 "日付": "2020-09-29T08:00:00.000Z",
+-                "小計": 211
++                "小計": 212
+             },
+             {
+                 "日付": "2020-09-30T08:00:00.000Z",
+@@ -269220,7 +267995,7 @@
+             },
+             {
+                 "日付": "2020-10-01T08:00:00.000Z",
+-                "小計": 234
++                "小計": 235
+             },
+             {
+                 "日付": "2020-10-02T08:00:00.000Z",
+@@ -269236,11 +268011,11 @@
+             },
+             {
+                 "日付": "2020-10-05T08:00:00.000Z",
+-                "小計": 65
++                "小計": 66
+             },
+             {
+                 "日付": "2020-10-06T08:00:00.000Z",
+-                "小計": 176
++                "小計": 177
+             },
+             {
+                 "日付": "2020-10-07T08:00:00.000Z",
+@@ -269373,15 +268148,11 @@
+             {
+                 "日付": "2020-11-08T08:00:00.000Z",
+                 "小計": 189
+-            },
+-            {
+-                "日付": "2020-11-09T08:00:00.000Z",
+-                "小計": 157
+             }
+         ]
+     },
+     "discharges_summary": {
+-        "date": "2020\/11\/09 19:30",
++        "date": "2020\/11\/06 19:45",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -270534,23 +269305,11 @@
+             {
+                 "日付": "2020-11-06T08:00:00.000Z",
+                 "小計": 0
+-            },
+-            {
+-                "日付": "2020-11-07T08:00:00.000Z",
+-                "小計": 0
+-            },
+-            {
+-                "日付": "2020-11-08T08:00:00.000Z",
+-                "小計": 0
+-            },
+-            {
+-                "日付": "2020-11-09T08:00:00.000Z",
+-                "小計": 0
+             }
+         ]
+     },
+     "inspections_summary": {
+-        "date": "2020\/11\/09 19:30",
++        "date": "2020\/11\/06 19:45",
+         "data": {
+             "都内": [
+                 0,
+@@ -270839,10 +269598,7 @@
+                 386,
+                 210,
+                 154,
+-                277,
+-                290,
+-                314,
+-                34
++                277
+             ],
+             "その他": [
+                 0,
+@@ -271131,9 +269887,6 @@
+                 0,
+                 0,
+                 0,
+-                0,
+-                0,
+-                0,
+                 0
+             ],
+             "保険適用分": [
+@@ -271419,14 +270172,11 @@
+                 4900,
+                 5156,
+                 2439,
+-                1103,
+-                7509,
+-                1338,
+-                6550,
+-                5410,
+-                5308,
+-                2687,
+-                810
++                1145,
++                7517,
++                1287,
++                6467,
++                4664
+             ]
+         },
+         "labels": [
+@@ -271716,53 +270466,50 @@
+             "11\/2",
+             "11\/3",
+             "11\/4",
+-            "11\/5",
+-            "11\/6",
+-            "11\/7",
+-            "11\/8"
++            "11\/5"
+         ]
+     },
+-    "lastUpdate": "2020\/11\/09 19:30",
++    "lastUpdate": "2020\/11\/06 19:45",
+     "main_summary": {
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2020\/11\/9 19:30",
+-                "value": 32767,
++                "date": "2020\/11\/8 18:45",
++                "value": 32618,
+                 "children": [
+                     {
+                         "attr": "入院中",
+-                        "value": 1114,
++                        "value": 1060,
+                         "children": [
+                             {
+                                 "attr": "軽症・中等症",
+-                                "value": 1079
++                                "value": 1024
+                             },
+                             {
+                                 "attr": "重症",
+-                                "value": 35
++                                "value": 36
+                             }
+                         ]
+                     },
+                     {
+                         "attr": "退院",
+-                        "value": 30179
++                        "value": 30027
+                     },
+                     {
+                         "attr": "死亡",
+-                        "value": 462
++                        "value": 461
+                     },
+                     {
+                         "attr": "宿泊療養",
+-                        "value": 373
++                        "value": 364
+                     },
+                     {
+                         "attr": "自宅療養",
+-                        "value": 330
++                        "value": 279
+                     },
+                     {
+                         "attr": "調査中",
+-                        "value": 309
++                        "value": 427
+                     }
+                 ]
+             }
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index 76ff22d5929..897b55a0b20 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -1,16 +1,16 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/8 18:45",
+     "data": {
+-        "(1)新規陽性者数": 211.7,
+-        "(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 ": 56.3,
+-        "(3)新規陽性者における接触歴等不明者（人数）": 118,
+-        "(3)新規陽性者における接触歴等不明者（増加比）": 128.5,
+-        "(4)PCR・抗原検査（陽性率）": 4.8,
+-        "(4)PCR・抗原検査（検査人数）": 4007.7,
+-        "(5)救急医療の東京ルールの適用件数": 41,
+-        "(6)入院患者数": 1114,
++        "(1)新規陽性者数": 201.7,
++        "(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 ": 56.9,
++        "(3)新規陽性者における接触歴等不明者（人数）": 115.6,
++        "(3)新規陽性者における接触歴等不明者（増加比）": 126.4,
++        "(4)PCR・抗原検査（陽性率）": 4.6,
++        "(4)PCR・抗原検査（検査人数）": 3474.3,
++        "(5)救急医療の東京ルールの適用件数": 36.4,
++        "(6)入院患者数": 1060,
+         "(6)入院患者確保病床数": "2640床",
+-        "(7)重症患者数": 35,
++        "(7)重症患者数": 36,
+         "(7)重症患者確保病床数": "150床",
+         "総括コメント-感染状況": {
+             "level": 3,
+diff --git a/data/news.json b/data/news.json
+index a9b6ed2c3c8..245ccfab280 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -1,22 +1,22 @@
+ {
+     "newsItems": [
+         {
+-            "date": "2020\/11\/09",
++            "date": "2020\/11\/08",
+             "url": "https:\/\/stopcovid19.metro.tokyo.lg.jp\/cards\/details-of-confirmed-cases",
+-            "text": "【11\/9時点の都内患者数】入院数1,114人（確保病床数2,640床）、うち重症者数35人（重症病床数150床）"
++            "text": "【11\/8時点の都内患者数】入院数1,060人（確保病床数2,640床）、うち重症者数36人（重症病床数150床）"
+         },
+         {
+-            "date": "2020\/11\/09",
++            "date": "2020\/11\/08",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/hodo\/saishin\/hassei.html",
+-            "text": "【11\/9の状況】新規陽性者数157人、うち65歳以上の高齢者数24人、死亡者数1人、検査数5,598件（11\/6参考値）"
++            "text": "【11\/8の状況】新規陽性者数189人、うち65歳以上の高齢者数24人、死亡者数0人、検査数5,444件（11\/5参考値）"
+         },
+         {
+-            "date": "2020\/11\/09",
++            "date": "2020\/11\/08",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/todokedehcyouseisya.html",
+             "text": "新型コロナウイルス感染症の患者発生状況の詳細をお知らせします。"
+         },
+         {
+-            "date": "2020\/11\/09",
++            "date": "2020\/11\/08",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/soudankensuu.html",
+             "text": "「東京都発熱相談センター」における相談件数はこちら"
+         }
+diff --git a/data/patient.json b/data/patient.json
+index 6d0bac650e7..0c91acca853 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,7 +1,7 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/8 18:45",
+     "datasets": {
+-        "date": "2020\/11\/8",
++        "date": "2020\/11\/7",
+         "data": [
+             {
+                 "code": 131016,
+@@ -15,154 +15,154 @@
+                 "area": "特別区",
+                 "label": "中央区",
+                 "ruby": "ちゅうおうく",
+-                "count": 630
++                "count": 621
+             },
+             {
+                 "code": 131032,
+                 "area": "特別区",
+                 "label": "港区",
+                 "ruby": "みなとく",
+-                "count": 1493
++                "count": 1486
+             },
+             {
+                 "code": 131041,
+                 "area": "特別区",
+                 "label": "新宿区",
+                 "ruby": "しんじゅくく",
+-                "count": 3137
++                "count": 3124
+             },
+             {
+                 "code": 131059,
+                 "area": "特別区",
+                 "label": "文京区",
+                 "ruby": "ぶんきょうく",
+-                "count": 557
++                "count": 552
+             },
+             {
+                 "code": 131067,
+                 "area": "特別区",
+                 "label": "台東区",
+                 "ruby": "たいとうく",
+-                "count": 720
++                "count": 717
+             },
+             {
+                 "code": 131075,
+                 "area": "特別区",
+                 "label": "墨田区",
+                 "ruby": "すみだく",
+-                "count": 660
++                "count": 654
+             },
+             {
+                 "code": 131083,
+                 "area": "特別区",
+                 "label": "江東区",
+                 "ruby": "こうとうく",
+-                "count": 1063
++                "count": 1059
+             },
+             {
+                 "code": 131091,
+                 "area": "特別区",
+                 "label": "品川区",
+                 "ruby": "しながわく",
+-                "count": 1198
++                "count": 1187
+             },
+             {
+                 "code": 131105,
+                 "area": "特別区",
+                 "label": "目黒区",
+                 "ruby": "めぐろく",
+-                "count": 1000
++                "count": 998
+             },
+             {
+                 "code": 131113,
+                 "area": "特別区",
+                 "label": "大田区",
+                 "ruby": "おおたく",
+-                "count": 1636
++                "count": 1627
+             },
+             {
+                 "code": 131121,
+                 "area": "特別区",
+                 "label": "世田谷区",
+                 "ruby": "せたがやく",
+-                "count": 2706
++                "count": 2702
+             },
+             {
+                 "code": 131130,
+                 "area": "特別区",
+                 "label": "渋谷区",
+                 "ruby": "しぶやく",
+-                "count": 1167
++                "count": 1164
+             },
+             {
+                 "code": 131148,
+                 "area": "特別区",
+                 "label": "中野区",
+                 "ruby": "なかのく",
+-                "count": 1335
++                "count": 1329
+             },
+             {
+                 "code": 131156,
+                 "area": "特別区",
+                 "label": "杉並区",
+                 "ruby": "すぎなみく",
+-                "count": 1321
++                "count": 1313
+             },
+             {
+                 "code": 131164,
+                 "area": "特別区",
+                 "label": "豊島区",
+                 "ruby": "としまく",
+-                "count": 938
++                "count": 932
+             },
+             {
+                 "code": 131172,
+                 "area": "特別区",
+                 "label": "北区",
+                 "ruby": "きたく",
+-                "count": 659
++                "count": 658
+             },
+             {
+                 "code": 131181,
+                 "area": "特別区",
+                 "label": "荒川区",
+                 "ruby": "あらかわく",
+-                "count": 509
++                "count": 508
+             },
+             {
+                 "code": 131199,
+                 "area": "特別区",
+                 "label": "板橋区",
+                 "ruby": "いたばしく",
+-                "count": 1115
++                "count": 1105
+             },
+             {
+                 "code": 131202,
+                 "area": "特別区",
+                 "label": "練馬区",
+                 "ruby": "ねりまく",
+-                "count": 1336
++                "count": 1315
+             },
+             {
+                 "code": 131211,
+                 "area": "特別区",
+                 "label": "足立区",
+                 "ruby": "あだちく",
+-                "count": 1398
++                "count": 1385
+             },
+             {
+                 "code": 131229,
+                 "area": "特別区",
+                 "label": "葛飾区",
+                 "ruby": "かつしかく",
+-                "count": 810
++                "count": 809
+             },
+             {
+                 "code": 131237,
+                 "area": "特別区",
+                 "label": "江戸川区",
+                 "ruby": "えどがわく",
+-                "count": 1285
++                "count": 1281
+             },
+             {
+                 "code": 132012,
+@@ -183,7 +183,7 @@
+                 "area": "多摩地域",
+                 "label": "武蔵野市",
+                 "ruby": "むさしのし",
+-                "count": 247
++                "count": 248
+             },
+             {
+                 "code": 132047,
+@@ -197,14 +197,14 @@
+                 "area": "多摩地域",
+                 "label": "青梅市",
+                 "ruby": "おうめし",
+-                "count": 101
++                "count": 100
+             },
+             {
+                 "code": 132063,
+                 "area": "多摩地域",
+                 "label": "府中市",
+                 "ruby": "ふちゅうし",
+-                "count": 327
++                "count": 326
+             },
+             {
+                 "code": 132071,
+@@ -218,14 +218,14 @@
+                 "area": "多摩地域",
+                 "label": "調布市",
+                 "ruby": "ちょうふし",
+-                "count": 290
++                "count": 289
+             },
+             {
+                 "code": 132098,
+                 "area": "多摩地域",
+                 "label": "町田市",
+                 "ruby": "まちだし",
+-                "count": 352
++                "count": 349
+             },
+             {
+                 "code": 132101,
+@@ -239,7 +239,7 @@
+                 "area": "多摩地域",
+                 "label": "小平市",
+                 "ruby": "こだいらし",
+-                "count": 189
++                "count": 188
+             },
+             {
+                 "code": 132128,
+@@ -253,7 +253,7 @@
+                 "area": "多摩地域",
+                 "label": "東村山市",
+                 "ruby": "ひがしむらやまし",
+-                "count": 91
++                "count": 90
+             },
+             {
+                 "code": 132144,
+@@ -267,7 +267,7 @@
+                 "area": "多摩地域",
+                 "label": "国立市",
+                 "ruby": "くにたちし",
+-                "count": 55
++                "count": 54
+             },
+             {
+                 "code": 132187,
+@@ -281,7 +281,7 @@
+                 "area": "多摩地域",
+                 "label": "狛江市",
+                 "ruby": "こまえし",
+-                "count": 99
++                "count": 98
+             },
+             {
+                 "code": 132209,
+@@ -302,14 +302,14 @@
+                 "area": "多摩地域",
+                 "label": "東久留米市",
+                 "ruby": "ひがしくるめし",
+-                "count": 93
++                "count": 92
+             },
+             {
+                 "code": 132233,
+                 "area": "多摩地域",
+                 "label": "武蔵村山市",
+                 "ruby": "むさしむらやまし",
+-                "count": 31
++                "count": 30
+             },
+             {
+                 "code": 132241,
+@@ -323,7 +323,7 @@
+                 "area": "多摩地域",
+                 "label": "稲城市",
+                 "ruby": "いなぎし",
+-                "count": 82
++                "count": 80
+             },
+             {
+                 "code": 132276,
+@@ -344,7 +344,7 @@
+                 "area": "多摩地域",
+                 "label": "西東京市",
+                 "ruby": "にしとうきょうし",
+-                "count": 309
++                "count": 306
+             },
+             {
+                 "code": 133035,
+@@ -442,7 +442,7 @@
+                 "area": null,
+                 "label": "都外",
+                 "ruby": null,
+-                "count": 1721
++                "count": 1703
+             },
+             {
+                 "code": null,
+@@ -456,7 +456,7 @@
+                 "area": null,
+                 "label": "小計",
+                 "ruby": null,
+-                "count": 32610
++                "count": 32429
+             }
+         ]
+     }
+diff --git a/data/positive_by_developed.json b/data/positive_by_developed.json
+index c186152f3b7..bf688a0ff7f 100644
+--- a/data/positive_by_developed.json
++++ b/data/positive_by_developed.json
+@@ -1,6 +1,6 @@
+ {
+-    "date": "2020\/11\/9 19:30",
+-    "unknown_count": 12026,
++    "date": "2020\/11\/8 18:45",
++    "unknown_count": 11977,
+     "data": [
+         {
+             "developed_date": "2020-01-14",
+@@ -820,7 +820,7 @@
+         },
+         {
+             "developed_date": "2020-08-05",
+-            "count": 183
++            "count": 184
+         },
+         {
+             "developed_date": "2020-08-06",
+@@ -944,7 +944,7 @@
+         },
+         {
+             "developed_date": "2020-09-05",
+-            "count": 103
++            "count": 104
+         },
+         {
+             "developed_date": "2020-09-06",
+@@ -1000,7 +1000,7 @@
+         },
+         {
+             "developed_date": "2020-09-19",
+-            "count": 65
++            "count": 66
+         },
+         {
+             "developed_date": "2020-09-20",
+@@ -1128,15 +1128,15 @@
+         },
+         {
+             "developed_date": "2020-10-21",
+-            "count": 102
++            "count": 100
+         },
+         {
+             "developed_date": "2020-10-22",
+-            "count": 88
++            "count": 87
+         },
+         {
+             "developed_date": "2020-10-23",
+-            "count": 115
++            "count": 114
+         },
+         {
+             "developed_date": "2020-10-24",
+@@ -1152,54 +1152,50 @@
+         },
+         {
+             "developed_date": "2020-10-27",
+-            "count": 94
++            "count": 90
+         },
+         {
+             "developed_date": "2020-10-28",
+-            "count": 105
++            "count": 103
+         },
+         {
+             "developed_date": "2020-10-29",
+-            "count": 93
++            "count": 92
+         },
+         {
+             "developed_date": "2020-10-30",
+-            "count": 115
++            "count": 112
+         },
+         {
+             "developed_date": "2020-10-31",
+-            "count": 93
++            "count": 90
+         },
+         {
+             "developed_date": "2020-11-01",
+-            "count": 95
++            "count": 91
+         },
+         {
+             "developed_date": "2020-11-02",
+-            "count": 119
++            "count": 109
+         },
+         {
+             "developed_date": "2020-11-03",
+-            "count": 114
++            "count": 104
+         },
+         {
+             "developed_date": "2020-11-04",
+-            "count": 83
++            "count": 66
+         },
+         {
+             "developed_date": "2020-11-05",
+-            "count": 62
++            "count": 47
+         },
+         {
+             "developed_date": "2020-11-06",
+-            "count": 37
++            "count": 23
+         },
+         {
+             "developed_date": "2020-11-07",
+-            "count": 16
+-        },
+-        {
+-            "developed_date": "2020-11-08",
+             "count": 4
+         }
+     ]
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index a725cb6ebda..a954747e4d9 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/8 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-23",
+@@ -759,7 +759,7 @@
+         },
+         {
+             "diagnosed_date": "2020-07-30",
+-            "count": 407
++            "count": 408
+         },
+         {
+             "diagnosed_date": "2020-07-31",
+@@ -787,7 +787,7 @@
+         },
+         {
+             "diagnosed_date": "2020-08-06",
+-            "count": 440
++            "count": 441
+         },
+         {
+             "diagnosed_date": "2020-08-07",
+@@ -907,7 +907,7 @@
+         },
+         {
+             "diagnosed_date": "2020-09-05",
+-            "count": 151
++            "count": 152
+         },
+         {
+             "diagnosed_date": "2020-09-06",
+@@ -963,7 +963,7 @@
+         },
+         {
+             "diagnosed_date": "2020-09-19",
+-            "count": 181
++            "count": 182
+         },
+         {
+             "diagnosed_date": "2020-09-20",
+@@ -999,7 +999,7 @@
+         },
+         {
+             "diagnosed_date": "2020-09-28",
+-            "count": 142
++            "count": 143
+         },
+         {
+             "diagnosed_date": "2020-09-29",
+@@ -1007,7 +1007,7 @@
+         },
+         {
+             "diagnosed_date": "2020-09-30",
+-            "count": 205
++            "count": 206
+         },
+         {
+             "diagnosed_date": "2020-10-01",
+@@ -1023,11 +1023,11 @@
+         },
+         {
+             "diagnosed_date": "2020-10-04",
+-            "count": 73
++            "count": 74
+         },
+         {
+             "diagnosed_date": "2020-10-05",
+-            "count": 136
++            "count": 137
+         },
+         {
+             "diagnosed_date": "2020-10-06",
+@@ -1091,7 +1091,7 @@
+         },
+         {
+             "diagnosed_date": "2020-10-21",
+-            "count": 191
++            "count": 190
+         },
+         {
+             "diagnosed_date": "2020-10-22",
+@@ -1099,11 +1099,11 @@
+         },
+         {
+             "diagnosed_date": "2020-10-23",
+-            "count": 184
++            "count": 183
+         },
+         {
+             "diagnosed_date": "2020-10-24",
+-            "count": 188
++            "count": 187
+         },
+         {
+             "diagnosed_date": "2020-10-25",
+@@ -1119,7 +1119,7 @@
+         },
+         {
+             "diagnosed_date": "2020-10-28",
+-            "count": 202
++            "count": 201
+         },
+         {
+             "diagnosed_date": "2020-10-29",
+@@ -1127,7 +1127,7 @@
+         },
+         {
+             "diagnosed_date": "2020-10-30",
+-            "count": 207
++            "count": 204
+         },
+         {
+             "diagnosed_date": "2020-10-31",
+@@ -1147,7 +1147,7 @@
+         },
+         {
+             "diagnosed_date": "2020-11-04",
+-            "count": 232
++            "count": 230
+         },
+         {
+             "diagnosed_date": "2020-11-05",
+@@ -1155,15 +1155,11 @@
+         },
+         {
+             "diagnosed_date": "2020-11-06",
+-            "count": 280
++            "count": 273
+         },
+         {
+             "diagnosed_date": "2020-11-07",
+-            "count": 208
+-        },
+-        {
+-            "diagnosed_date": "2020-11-08",
+-            "count": 82
++            "count": 149
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/positive_rate.json b/data/positive_rate.json
+index 45eb1b596a9..6a3b8f33657 100644
+--- a/data/positive_rate.json
++++ b/data/positive_rate.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/7 19:15",
+     "data": [
+         {
+             "diagnosed_date": "2020-02-15",
+@@ -2863,91 +2863,69 @@
+         },
+         {
+             "diagnosed_date": "2020-11-01",
+-            "positive_count": 53,
+-            "negative_count": 1205,
++            "positive_count": 56,
++            "negative_count": 1195,
+             "positive_rate": 3.5,
+-            "weekly_average_diagnosed_count": 4192.9,
+-            "pcr_positive_count": 48,
+-            "pcr_negative_count": 869,
+-            "antigen_positive_count": 5,
+-            "antigen_negative_count": 336
++            "weekly_average_diagnosed_count": 4191.9,
++            "pcr_positive_count": 49,
++            "pcr_negative_count": 850,
++            "antigen_positive_count": 7,
++            "antigen_negative_count": 345
+         },
+         {
+             "diagnosed_date": "2020-11-02",
+-            "positive_count": 204,
+-            "negative_count": 5519,
++            "positive_count": 192,
++            "negative_count": 5113,
+             "positive_rate": 3.7,
+-            "weekly_average_diagnosed_count": 4217.7,
+-            "pcr_positive_count": 159,
+-            "pcr_negative_count": 4551,
++            "weekly_average_diagnosed_count": 4157,
++            "pcr_positive_count": 147,
++            "pcr_negative_count": 4176,
+             "antigen_positive_count": 45,
+-            "antigen_negative_count": 968
++            "antigen_negative_count": 937
+         },
+         {
+             "diagnosed_date": "2020-11-03",
+-            "positive_count": 131,
+-            "negative_count": 2236,
+-            "positive_rate": 3.8,
+-            "weekly_average_diagnosed_count": 3797,
+-            "pcr_positive_count": 117,
+-            "pcr_negative_count": 1899,
+-            "antigen_positive_count": 14,
+-            "antigen_negative_count": 337
++            "positive_count": 133,
++            "negative_count": 2195,
++            "positive_rate": 3.9,
++            "weekly_average_diagnosed_count": 3730.7,
++            "pcr_positive_count": 114,
++            "pcr_negative_count": 1812,
++            "antigen_positive_count": 19,
++            "antigen_negative_count": 383
+         },
+         {
+             "diagnosed_date": "2020-11-04",
+-            "positive_count": 239,
+-            "negative_count": 5344,
+-            "positive_rate": 4,
+-            "weekly_average_diagnosed_count": 3876,
+-            "pcr_positive_count": 196,
+-            "pcr_negative_count": 4370,
+-            "antigen_positive_count": 43,
+-            "antigen_negative_count": 974
++            "positive_count": 242,
++            "negative_count": 5229,
++            "positive_rate": 4.1,
++            "weekly_average_diagnosed_count": 3793.7,
++            "pcr_positive_count": 192,
++            "pcr_negative_count": 4183,
++            "antigen_positive_count": 50,
++            "antigen_negative_count": 1046
+         },
+         {
+             "diagnosed_date": "2020-11-05",
+-            "positive_count": 240,
+-            "negative_count": 4899,
+-            "positive_rate": 4.2,
+-            "weekly_average_diagnosed_count": 3910.9,
+-            "pcr_positive_count": 200,
+-            "pcr_negative_count": 4114,
+-            "antigen_positive_count": 40,
+-            "antigen_negative_count": 785
++            "positive_count": 222,
++            "negative_count": 4266,
++            "positive_rate": 4.3,
++            "weekly_average_diagnosed_count": 3735.6,
++            "pcr_positive_count": 181,
++            "pcr_negative_count": 3563,
++            "antigen_positive_count": 41,
++            "antigen_negative_count": 703
+         },
+         {
+             "diagnosed_date": "2020-11-06",
+-            "positive_count": 267,
+-            "negative_count": 4543,
+-            "positive_rate": 4.5,
+-            "weekly_average_diagnosed_count": 3930,
+-            "pcr_positive_count": 237,
+-            "pcr_negative_count": 3884,
+-            "antigen_positive_count": 30,
+-            "antigen_negative_count": 659
+-        },
+-        {
+-            "diagnosed_date": "2020-11-07",
+-            "positive_count": 178,
+-            "negative_count": 3023,
+-            "positive_rate": 4.7,
+-            "weekly_average_diagnosed_count": 4011.6,
+-            "pcr_positive_count": 163,
+-            "pcr_negative_count": 2537,
+-            "antigen_positive_count": 15,
+-            "antigen_negative_count": 486
+-        },
+-        {
+-            "diagnosed_date": "2020-11-08",
+-            "positive_count": 96,
+-            "negative_count": 1135,
+-            "positive_rate": 4.8,
+-            "weekly_average_diagnosed_count": 4007.7,
+-            "pcr_positive_count": 83,
+-            "pcr_negative_count": 884,
+-            "antigen_positive_count": 13,
+-            "antigen_negative_count": 251
++            "positive_count": 163,
++            "negative_count": 2684,
++            "positive_rate": 4.6,
++            "weekly_average_diagnosed_count": 3474.3,
++            "pcr_positive_count": 139,
++            "pcr_negative_count": 2238,
++            "antigen_positive_count": 24,
++            "antigen_negative_count": 446
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/positive_status.json b/data/positive_status.json
+index c2bd0bcf2ab..30a8dba807f 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/8 18:45",
+     "data": [
+         {
+             "date": "2020-02-28",
+@@ -1275,11 +1275,6 @@
+             "date": "2020-11-08",
+             "hospitalized": 1060,
+             "severe_case": 36
+-        },
+-        {
+-            "date": "2020-11-09",
+-            "hospitalized": 1114,
+-            "severe_case": 35
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/tokyo_rule.json b/data/tokyo_rule.json
+index 44fb711fac7..8edf0eb1d2b 100644
+--- a/data/tokyo_rule.json
++++ b/data/tokyo_rule.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/11\/9 19:30",
++    "date": "2020\/11\/6 19:45",
+     "data": [
+         {
+             "date": "2020-03-01",
+@@ -1250,21 +1250,6 @@
+             "date": "2020-11-05",
+             "count": 43,
+             "weekly_average_count": 36.4
+-        },
+-        {
+-            "date": "2020-11-06",
+-            "count": 31,
+-            "weekly_average_count": 37.6
+-        },
+-        {
+-            "date": "2020-11-07",
+-            "count": 51,
+-            "weekly_average_count": 40.1
+-        },
+-        {
+-            "date": "2020-11-08",
+-            "count": 46,
+-            "weekly_average_count": 41
+         }
+     ]
+ }
+\ No newline at end of file

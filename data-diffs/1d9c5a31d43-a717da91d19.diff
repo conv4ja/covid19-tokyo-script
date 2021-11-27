@@ -1,0 +1,32 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index 9f80c3c3529..c2a4ac678f0 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,21 +1,21 @@
+ {
+-    "date": "2021\/2\/2 13:50",
++    "date": "2021\/2\/1 15:00",
+     "data": {
+         "place": {
+             "display": {
+-                "@ja": "歌舞伎町",
+-                "@en": "Kabukicho"
++                "@ja": "銀座",
++                "@en": "Ginza"
+             }
+         },
+-        "date": "2021-02-01",
++        "date": "2021-01-31",
+         "data": [
+             {
+                  "reference_date": "2020-12-01",
+-                 "increase_rate": -47
++                 "increase_rate": -53
+             },
+             {
+                  "reference_date": "2020-01-01",
+-                 "increase_rate": -66
++                 "increase_rate": -65
+             }
+         ]
+     }

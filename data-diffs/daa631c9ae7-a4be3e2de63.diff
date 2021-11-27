@@ -1,0 +1,27 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index f3323b62ba6..282ec79915a 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,17 +1,17 @@
+ {
+-    "date": "2021\/5\/9 12:40",
++    "date": "2021\/5\/8 12:50",
+     "data": {
+         "place": {
+             "display": {
+-                "@ja": "東京",
+-                "@en": "Tokyo"
++                "@ja": "銀座",
++                "@en": "Ginza"
+             }
+         },
+-        "date": "2021-05-08",
++        "date": "2021-05-07",
+         "data": [
+             {
+                 "reference_date": "2020-01-01",
+-                "increase_rate": -62
++                "increase_rate": -65
+             }
+         ]
+     }

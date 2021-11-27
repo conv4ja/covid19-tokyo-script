@@ -1,0 +1,20 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index d92e5e8b3cc..ebe3845f06a 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/7\/26 12:50",
++    "date": "2021\/7\/19 12:30",
+     "data": {
+         "place": {
+             "display": {
+@@ -11,7 +11,7 @@
+         "data": [
+             {
+                 "reference_date": "2020-01-01",
+-                "increase_rate": -70
++                "increase_rate": -60
+             }
+         ]
+     }

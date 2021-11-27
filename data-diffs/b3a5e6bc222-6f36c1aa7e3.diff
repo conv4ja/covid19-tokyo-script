@@ -1,0 +1,25 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index b0aa113b3ab..38db6a3a35f 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/6\/6 12:30",
++    "date": "2021\/6\/5 12:30",
+     "data": {
+         "place": {
+             "display": {
+@@ -7,11 +7,11 @@
+                 "@en": "Shinagawa"
+             }
+         },
+-        "date": "2021-06-05",
++        "date": "2021-06-04",
+         "data": [
+             {
+                 "reference_date": "2020-01-01",
+-                "increase_rate": -52
++                "increase_rate": -60
+             }
+         ]
+     }

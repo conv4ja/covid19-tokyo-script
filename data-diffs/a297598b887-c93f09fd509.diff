@@ -1,0 +1,13 @@
+diff --git a/data/patient.json b/data/patient.json
+index 67277f6eca8..966dc60b29b 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,7 +1,7 @@
+ {
+     "date": "2020\/6\/3 18:30",
+     "datasets": {
+-        "date": "2020\/6\/2",
++        "date": "2020\/6\/1",
+         "data": [
+             {
+                 "code": 131016,

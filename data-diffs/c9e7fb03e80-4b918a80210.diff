@@ -1,0 +1,25 @@
+diff --git a/data/staying_population.json b/data/staying_population.json
+index 3af79f5dfd2..9c616e9d87e 100644
+--- a/data/staying_population.json
++++ b/data/staying_population.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/6\/8 12:30",
++    "date": "2021\/6\/7 12:30",
+     "data": {
+         "place": {
+             "display": {
+@@ -7,11 +7,11 @@
+                 "@en": "Ginza"
+             }
+         },
+-        "date": "2021-06-07",
++        "date": "2021-06-06",
+         "data": [
+             {
+                 "reference_date": "2020-01-01",
+-                "increase_rate": -63
++                "increase_rate": -61
+             }
+         ]
+     }

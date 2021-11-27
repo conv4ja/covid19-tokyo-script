@@ -1,0 +1,13 @@
+diff --git a/data/news.json b/data/news.json
+index 52d32890aa3..1baf884e800 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -3,7 +3,7 @@
+         {
+             "date": "2020\/05\/30",
+             "url": "https:\/\/tokyodouga.jp\/coronavirus",
+-            "text": " [最新情報動画]  知事から都民の皆様へ (5\/30)"
++            "text": " [最新情報動画]  知事から都民の皆様へ  (5\/30)"
+         },
+         {
+             "date": "2020\/05\/30",

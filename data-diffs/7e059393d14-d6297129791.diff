@@ -1,0 +1,149 @@
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index d7bcca6480d..df9eb9886bb 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-20",
+diff --git a/data/data.json b/data/data.json
+index 98b265a5e2d..fc353b557de 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -145554,7 +145554,7 @@
+         ]
+     },
+     "inspections_summary": {
+-        "date": "2020\/08\/15 20:15",
++        "date": "2020\/08\/15 20:00",
+         "data": {
+             "都内": [
+                 0,
+@@ -146379,7 +146379,7 @@
+         ]
+     },
+     "inspection_persons": {
+-        "date": "2020\/08\/15 20:15",
++        "date": "2020\/08\/15 20:00",
+         "labels": [
+             "2020-01-24T08:00:00.000Z",
+             "2020-01-25T08:00:00.000Z",
+@@ -146671,7 +146671,7 @@
+         ]
+     },
+     "inspection_status_summary": {
+-        "date": "2020\/08\/15 20:15",
++        "date": "2020\/08\/15 20:00",
+         "attr": "検査実施人数（累計）",
+         "value": 16351,
+         "children": [
+@@ -146691,14 +146691,14 @@
+             }
+         ]
+     },
+-    "lastUpdate": "2020\/08\/15 20:15",
++    "lastUpdate": "2020\/08\/15 20:00",
+     "main_summary": {
+         "attr": "検査実施人数",
+         "value": 16351,
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2020\/8\/15 20:15",
++                "date": "2020\/8\/15 20:00",
+                 "value": 17454,
+                 "children": [
+                     {
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index 468873d2c4c..b46461229eb 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "data": {
+         "(1)新規陽性者数": 274,
+         "(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 ": 92.6,
+diff --git a/data/monitoring_status.json b/data/monitoring_status.json
+index 01c15430c2d..7182c6c4209 100644
+--- a/data/monitoring_status.json
++++ b/data/monitoring_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "data": {
+         "（１）新規陽性者数": {
+             "value": 108,
+diff --git a/data/news.json b/data/news.json
+index c4e103a837c..6fb7a0d2a52 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -8,7 +8,7 @@
+         {
+             "date": "2020\/08\/15",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/hodo\/saishin\/hassei.html",
+-            "text": "【8\/15の状況】新規陽性者385人、死亡者数0人、検査数5,426件（8\/12・参考値）"
++            "text": "【8\/14の状況】新規陽性者385人、死亡者数0人、検査数5,426件（8\/12・参考値）"
+         },
+         {
+             "date": "2020\/08\/15",
+diff --git a/data/patient.json b/data/patient.json
+index d6cab007bc2..8523b1fa5da 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "datasets": {
+         "date": "2020\/8\/14",
+         "data": [
+diff --git a/data/positive_by_developed.json b/data/positive_by_developed.json
+index 336ce1b5a24..e9d2653516b 100644
+--- a/data/positive_by_developed.json
++++ b/data/positive_by_developed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "unknown_count": 5952,
+     "data": [
+         {
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index d6f7d42d206..9960b1fd037 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-23",
+diff --git a/data/positive_rate.json b/data/positive_rate.json
+index 3cb814378c2..57a49ef077c 100644
+--- a/data/positive_rate.json
++++ b/data/positive_rate.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-02-15",
+diff --git a/data/positive_status.json b/data/positive_status.json
+index 3d772fb8885..72afdd8de1e 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/15 20:15",
++    "date": "2020\/8\/15 20:00",
+     "data": [
+         {
+             "date": "2020-02-28",

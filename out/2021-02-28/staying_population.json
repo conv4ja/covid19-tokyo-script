@@ -1,0 +1,22 @@
+{
+    "date": "2021\/3\/1 15:00",
+    "data": {
+        "place": {
+            "display": {
+                "@ja": "六本木",
+                "@en": "Roppongi"
+            }
+        },
+        "date": "2021-02-28",
+        "data": [
+            {
+                "reference_date": "2020-12-01",
+                "increase_rate": -54
+            },
+            {
+                "reference_date": "2020-01-01",
+                "increase_rate": -55
+            }
+        ]
+    }
+}

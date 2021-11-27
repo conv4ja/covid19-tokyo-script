@@ -1,0 +1,59 @@
+diff --git a/data/monitoring_comment_image.json b/data/monitoring_comment_image.json
+index 3a97ab29208..af64b798e8b 100644
+--- a/data/monitoring_comment_image.json
++++ b/data/monitoring_comment_image.json
+@@ -3,22 +3,22 @@
+     "data": {
+         "images": [
+             {
+-                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0312bunseki.JPG",
+-                "alt": "感染状況・医療提供体制の分析（3月10日時点）",
++                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0304bunseki.JPG",
++                "alt": "感染状況・医療提供体制の分析（3月3日時点）",
+                 "href": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/monitoring.html"
+             },
+             {
+-                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0312gurafu1-2.JPG",
++                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0304gurafu1-2.JPG",
+                 "alt": "【感染状況】①-2 新規陽性者数（年代別）",
+                 "href": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/monitoring.html"
+             },
+             {
+-                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0312gurafu1-5.JPG",
++                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0304gurafu1-5.JPG",
+                 "alt": "【感染状況】①52 新規陽性者数（濃厚接触者における感染経路）",
+                 "href": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/monitoring.html"
+             },
+             {
+-                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0312gurafu6-3.JPG",
++                "src": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/2021\/03\/images\/0304gurafu6-3.JPG",
+                 "alt": "【医療提供体制】⑥-3 検査陽性者の療養状況（公表日の状況）",
+                 "href": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/monitoring.html"
+             }
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index e5c799d61b2..44fea2cf3e1 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -3,16 +3,16 @@
+     "data": {
+         "専門家3行コメント": [
+             {
+-                "@ja": "新規陽性者数は下げ止まりが見られる。",
+-                "@en": "新規陽性者数は下げ止まりが見られる。"
++                "@ja": "新規陽性者数の減少傾向が鈍化しており、感染の再拡大の危険性がある。",
++                "@en": "The number of new positive cases, which had been dropping, is leveling off, and there is the risk of infections spreading again."
+             },
+             {
+-                "@ja": "今後、変異株等により急激に感染の再拡大が起こる可能性がある。",
+-                "@en": "今後、変異株等により急激に感染の再拡大が起こる可能性がある。"
++                "@ja": "今後、感染力が強い変異株により、感染拡大のスピードが増すリスクがある。",
++                "@en": "There is a risk that infections will spread faster due to the highly infectious variant."
+             },
+             {
+-                "@ja": "病院の体制が十分に確保できないまま感染が再拡大する危険性がある。",
+-                "@en": "病院の体制が十分に確保できないまま感染が再拡大する危険性がある。"
++                "@ja": "感染の再拡大に備え、病床確保の戦略を早急に検討する必要がある。",
++                "@en": "In preparation for this, strategies to secure hospital beds must be urgently examined."
+             }
+         ],
+         "(1)新規陽性者数": 273.1,

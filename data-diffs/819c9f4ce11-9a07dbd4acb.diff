@@ -1,0 +1,13 @@
+diff --git a/data/deaths.json b/data/deaths.json
+index 157b97e942b..0a7ff1b8ff7 100644
+--- a/data/deaths.json
++++ b/data/deaths.json
+@@ -1599,7 +1599,7 @@
+         },
+         {
+             "death_date": "2021-03-31",
+-            "count": 0
++            "count": 2
+         },
+         {
+             "death_date": "2021-04-01",

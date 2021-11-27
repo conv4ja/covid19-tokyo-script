@@ -1,0 +1,344 @@
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index e30e6570188..f8165ef2ce2 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/6\/3 18:30",
++    "date": "2020\/6\/2 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-20",
+diff --git a/data/data.json b/data/data.json
+index bb5a1109612..1de4883970f 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -1,6 +1,6 @@
+ {
+     "contacts": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 18:45",
+         "data": [
+             {
+                 "日付": "2020-01-29T08:00:00.000Z",
+@@ -1391,7 +1391,7 @@
+         ]
+     },
+     "querents": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 18:45",
+         "data": [
+             {
+                 "日付": "2020-02-07T08:00:00.000Z",
+@@ -2683,7 +2683,7 @@
+         ]
+     },
+     "patients": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 18:45",
+         "data": [
+             {
+                 "リリース日": "2020-01-24T08:00:00.000Z",
+@@ -45048,7 +45048,7 @@
+         ]
+     },
+     "patients_summary": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 18:45",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -45581,7 +45581,7 @@
+         ]
+     },
+     "discharges_summary": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 18:45",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -46106,15 +46106,11 @@
+             {
+                 "日付": "2020-06-02T08:00:00.000Z",
+                 "小計": 0
+-            },
+-            {
+-                "日付": "2020-06-03T08:00:00.000Z",
+-                "小計": 0
+             }
+         ]
+     },
+     "inspections_summary": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 20:00",
+         "data": {
+             "都内": [
+                 0,
+@@ -46647,7 +46643,7 @@
+         ]
+     },
+     "inspection_persons": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 20:00",
+         "labels": [
+             "2020-01-24T08:00:00.000Z",
+             "2020-01-25T08:00:00.000Z",
+@@ -46919,7 +46915,7 @@
+         ]
+     },
+     "inspection_status_summary": {
+-        "date": "2020\/06\/03 18:30",
++        "date": "2020\/06\/02 20:00",
+         "attr": "検査実施人数（累計）",
+         "value": 15282,
+         "children": [
+@@ -46939,14 +46935,14 @@
+             }
+         ]
+     },
+-    "lastUpdate": "2020\/06\/03 18:30",
++    "lastUpdate": "2020\/06\/02 20:00",
+     "main_summary": {
+         "attr": "検査実施人数",
+         "value": 15282,
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2020\/6\/3 18:30",
++                "date": "2020\/6\/2 18:45",
+                 "value": 5295,
+                 "children": [
+                     {
+diff --git a/data/monitoring_status.json b/data/monitoring_status.json
+index 074c75fa0bf..6ec1a61d32c 100644
+--- a/data/monitoring_status.json
++++ b/data/monitoring_status.json
+@@ -1,38 +1,38 @@
+ {
+-    "date": "2020\/6\/3 18:30",
++    "date": "2020\/6\/2 18:45",
+     "data": {
+         "（１）新規陽性者数": {
+-            "value": 16.4,
++            "value": 16.3,
+             "go_threshold": "<20人\/日",
+             "stop_threshold": "50人\/日"
+         },
+         "（２）新規陽性者数における接触歴等不明率": {
+-            "value": 45.2,
++            "value": 50,
+             "go_threshold": "<50%",
+             "stop_threshold": "50%"
+         },
+         "（３）週単位の陽性者増加比": {
+-            "value": 1.95,
++            "value": 2.15,
+             "go_threshold": "<1",
+             "stop_threshold": 2
+         },
+         "（４）重症患者数": {
+-            "value": 27,
++            "value": 26,
+             "go_threshold": "【参考】100床(レベル1)",
+             "stop_threshold": null
+         },
+         "（５）入院患者数": {
+-            "value": 305,
++            "value": 312,
+             "go_threshold": "【参考】1,000床(レベル1)",
+             "stop_threshold": null
+         },
+         "（６）PCR検査の陽性率": {
+-            "value": 1.9,
++            "value": 2.1,
+             "go_threshold": "―",
+             "stop_threshold": null
+         },
+         "（７）受診相談窓口における相談件数": {
+-            "value": 975,
++            "value": 938,
+             "go_threshold": "―",
+             "stop_threshold": null
+         }
+diff --git a/data/patient.json b/data/patient.json
+index 966dc60b29b..8eb0d15d201 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/6\/3 18:30",
++    "date": "2020\/6\/2 18:45",
+     "datasets": {
+         "date": "2020\/6\/1",
+         "data": [
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index df492e33b84..c41214b6831 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/6\/3 18:30",
++    "date": "2020\/6\/2 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-23",
+diff --git a/data/positive_rate.json b/data/positive_rate.json
+index 1513ff52741..b848b3ae2ae 100644
+--- a/data/positive_rate.json
++++ b/data/positive_rate.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/6\/3 18:30",
++    "date": "2020\/6\/2 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-02-15",
+@@ -520,7 +520,7 @@
+         {
+             "diagnosed_date": "2020-05-11",
+             "positive_count": 25,
+-            "negative_count": 1167,
++            "negative_count": 1182,
+             "positive_rate": 2.5
+         },
+         {
+@@ -532,7 +532,7 @@
+         {
+             "diagnosed_date": "2020-05-13",
+             "positive_count": 10,
+-            "negative_count": 1351,
++            "negative_count": 1357,
+             "positive_rate": 1.8
+         },
+         {
+@@ -544,7 +544,7 @@
+         {
+             "diagnosed_date": "2020-05-15",
+             "positive_count": 9,
+-            "negative_count": 1305,
++            "negative_count": 1316,
+             "positive_rate": 1.4
+         },
+         {
+@@ -562,7 +562,7 @@
+         {
+             "diagnosed_date": "2020-05-18",
+             "positive_count": 11,
+-            "negative_count": 1102,
++            "negative_count": 1107,
+             "positive_rate": 0.9
+         },
+         {
+@@ -574,7 +574,7 @@
+         {
+             "diagnosed_date": "2020-05-20",
+             "positive_count": 7,
+-            "negative_count": 1057,
++            "negative_count": 1062,
+             "positive_rate": 0.8
+         },
+         {
+@@ -586,74 +586,68 @@
+         {
+             "diagnosed_date": "2020-05-22",
+             "positive_count": 8,
+-            "negative_count": 1103,
++            "negative_count": 1111,
+             "positive_rate": 0.8
+         },
+         {
+             "diagnosed_date": "2020-05-23",
+             "positive_count": 9,
+-            "negative_count": 536,
++            "negative_count": 535,
+             "positive_rate": 0.9
+         },
+         {
+             "diagnosed_date": "2020-05-24",
+             "positive_count": 5,
+-            "negative_count": 354,
+-            "positive_rate": 1
++            "negative_count": 353,
++            "positive_rate": 0.9
+         },
+         {
+             "diagnosed_date": "2020-05-25",
+             "positive_count": 10,
+-            "negative_count": 910,
++            "negative_count": 914,
+             "positive_rate": 1
+         },
+         {
+             "diagnosed_date": "2020-05-26",
+             "positive_count": 21,
+-            "negative_count": 1036,
++            "negative_count": 1025,
+             "positive_rate": 1.1
+         },
+         {
+             "diagnosed_date": "2020-05-27",
+             "positive_count": 12,
+-            "negative_count": 1054,
++            "negative_count": 1049,
+             "positive_rate": 1.2
+         },
+         {
+             "diagnosed_date": "2020-05-28",
+             "positive_count": 19,
+-            "negative_count": 1048,
++            "negative_count": 1041,
+             "positive_rate": 1.4
+         },
+         {
+             "diagnosed_date": "2020-05-29",
+             "positive_count": 20,
+-            "negative_count": 1150,
++            "negative_count": 1139,
+             "positive_rate": 1.6
+         },
+         {
+             "diagnosed_date": "2020-05-30",
+-            "positive_count": 14,
+-            "negative_count": 548,
+-            "positive_rate": 1.6
++            "positive_count": 22,
++            "negative_count": 497,
++            "positive_rate": 1.8
+         },
+         {
+             "diagnosed_date": "2020-05-31",
+             "positive_count": 12,
+-            "negative_count": 369,
+-            "positive_rate": 1.7
+-        },
+-        {
+-            "diagnosed_date": "2020-06-01",
+-            "positive_count": 26,
+-            "negative_count": 1214,
++            "negative_count": 340,
+             "positive_rate": 1.9
+         },
+         {
+-            "diagnosed_date": "2020-06-02",
+-            "positive_count": 16,
+-            "negative_count": 921,
+-            "positive_rate": 1.9
++            "diagnosed_date": "2020-06-01",
++            "positive_count": 19,
++            "negative_count": 640,
++            "positive_rate": 2.1
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/positive_status.json b/data/positive_status.json
+index b5414c63176..018215de7f3 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/6\/3 18:30",
++    "date": "2020\/6\/2 18:45",
+     "data": [
+         {
+             "date": "2020-02-28",

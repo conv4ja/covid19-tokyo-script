@@ -1,0 +1,13 @@
+diff --git a/data/news.json b/data/news.json
+index 9a05cf84043..4b7a67eb80f 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -17,7 +17,7 @@
+         },
+         {
+             "date": "2021\/01\/01",
+-            "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/cross-efforts\/0101schedule.pdf",
++            "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/cross-efforts\/2020\/12\/images\/20201228schedule.pdf",
+             "text": "年末年始のデータ更新スケジュールについて"
+         }
+     ]

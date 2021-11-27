@@ -1,0 +1,12 @@
+diff --git a/data/positive_by_developed.json b/data/positive_by_developed.json
+index 7822658d5fd..1a5b200da36 100644
+--- a/data/positive_by_developed.json
++++ b/data/positive_by_developed.json
+@@ -1,6 +1,6 @@
+ {
+     "date": "2020\/8\/20 20:15",
+-    "unknown_count": 6376,
++    "unknown_count": 6261,
+     "data": [
+         {
+             "developed_date": "2020-01-14",

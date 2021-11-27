@@ -1,0 +1,13 @@
+diff --git a/data/data.json b/data/data.json
+index 54cea4b8b8d..3022d8a43df 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -131116,7 +131116,7 @@
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2020\/8\/8 20:30",
++                "date": "2020\/8\/7 20:15",
+                 "value": 15536,
+                 "children": [
+                     {

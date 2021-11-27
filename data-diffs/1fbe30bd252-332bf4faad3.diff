@@ -1,0 +1,179 @@
+diff --git a/data/consultation_about_fever.json b/data/consultation_about_fever.json
+index e67b67fa42b..a9588ba6ef8 100644
+--- a/data/consultation_about_fever.json
++++ b/data/consultation_about_fever.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": [
+         {
+             "date": "2020-03-01",
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index 8ecdb18fd70..839ed2f02e2 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-20",
+diff --git a/data/data.json b/data/data.json
+index 4c5183693f6..54847f8f9f8 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -1,6 +1,6 @@
+ {
+     "contacts": {
+-        "date": "2020\/08\/20 20:15",
++        "date": "2020\/08\/19 20:00",
+         "data": [
+             {
+                 "日付": "2020-01-29T08:00:00.000Z",
+@@ -2249,7 +2249,7 @@
+         ]
+     },
+     "querents": {
+-        "date": "2020\/08\/20 20:15",
++        "date": "2020\/08\/19 20:00",
+         "data": [
+             {
+                 "日付": "2020-02-07T08:00:00.000Z",
+@@ -4399,7 +4399,7 @@
+         ]
+     },
+     "patients": {
+-        "date": "2020\/08\/20 20:15",
++        "date": "2020\/08\/19 20:00",
+         "data": [
+             {
+                 "リリース日": "2020-01-24T08:00:00.000Z",
+@@ -153260,7 +153260,7 @@
+         ]
+     },
+     "patients_summary": {
+-        "date": "2020\/08\/20 20:15",
++        "date": "2020\/08\/19 20:00",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -154105,7 +154105,7 @@
+         ]
+     },
+     "discharges_summary": {
+-        "date": "2020\/08\/20 20:15",
++        "date": "2020\/08\/19 20:00",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -154942,15 +154942,11 @@
+             {
+                 "日付": "2020-08-19T08:00:00.000Z",
+                 "小計": 0
+-            },
+-            {
+-                "日付": "2020-08-20T08:00:00.000Z",
+-                "小計": 0
+             }
+         ]
+     },
+     "inspections_summary": {
+-        "date": "2020\/08\/20 20:15",
++        "date": "2020\/08\/19 20:00",
+         "data": {
+             "都内": [
+                 0,
+@@ -155798,12 +155794,12 @@
+             "8\/19"
+         ]
+     },
+-    "lastUpdate": "2020\/08\/20 20:15",
++    "lastUpdate": "2020\/08\/19 20:00",
+     "main_summary": {
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2020\/8\/20 20:15",
++                "date": "2020\/8\/19 20:00",
+                 "value": 18607,
+                 "children": [
+                     {
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index 92ee372be1d..ca610fcff36 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": {
+         "(1)新規陽性者数": 275.3,
+         "(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 ": 80,
+diff --git a/data/patient.json b/data/patient.json
+index 2aba1b1ff72..cd1614a7224 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "datasets": {
+         "date": "2020\/8\/19",
+         "data": [
+diff --git a/data/positive_by_developed.json b/data/positive_by_developed.json
+index 1a5b200da36..d289fbd24be 100644
+--- a/data/positive_by_developed.json
++++ b/data/positive_by_developed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "unknown_count": 6261,
+     "data": [
+         {
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index 9c917ee3487..43fdab28480 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-23",
+diff --git a/data/positive_rate.json b/data/positive_rate.json
+index b55fa7bf8d3..7b4c40d7f61 100644
+--- a/data/positive_rate.json
++++ b/data/positive_rate.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": [
+         {
+             "diagnosed_date": "2020-02-15",
+diff --git a/data/positive_status.json b/data/positive_status.json
+index 29ab0ebfc0c..cc5dac5a2f9 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": [
+         {
+             "date": "2020-02-28",
+diff --git a/data/tokyo_rule.json b/data/tokyo_rule.json
+index f0f33652412..346de1c2077 100644
+--- a/data/tokyo_rule.json
++++ b/data/tokyo_rule.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2020\/8\/20 20:15",
++    "date": "2020\/8\/19 20:00",
+     "data": [
+         {
+             "date": "2020-03-01",

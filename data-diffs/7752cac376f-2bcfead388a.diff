@@ -1,0 +1,13 @@
+diff --git a/data/news.json b/data/news.json
+index b54322725dc..1be948f7a3b 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -3,7 +3,7 @@
+         {
+             "date": "2021\/07\/12",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/english\/health-crisis\/monitoring.html",
+-            "text": "“About COVID-19 Monitoring” has been posted.\/英語でモニタリングに関する情報を掲載しました。"
++            "text": "“About COVID-19 Monitoring” has been posted."
+         },
+         {
+             "date": "2021\/07\/11",

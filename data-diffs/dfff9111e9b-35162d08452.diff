@@ -1,0 +1,23 @@
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index ab62354a1d8..f9ae78c0f3d 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1980,17 +1980,6 @@
+             "weekly_average_count": 202.6,
+             "weekly_average_untracked_count": 98.1,
+             "weekly_average_untracked_increse_percent": 161.6
+-        },
+-        {
+-            "diagnosed_date": "2020-07-18",
+-            "count": 290,
+-            "missing_count": 158,
+-            "reported_count": 132,
+-            "weekly_gain_ratio": 1.41,
+-            "untracked_percent": 49.5,
+-            "weekly_average_count": 214.6,
+-            "weekly_average_untracked_count": 106.3,
+-            "weekly_average_untracked_increse_percent": 155
+         }
+     ]
+ }
+\ No newline at end of file

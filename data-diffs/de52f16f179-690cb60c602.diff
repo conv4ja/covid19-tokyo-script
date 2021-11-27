@@ -1,0 +1,75 @@
+diff --git a/data/data.json b/data/data.json
+index 8852059998e..f0f71aa3bcc 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -10935,7 +10935,7 @@
+             "2021-04-27"
+         ]
+     },
+-    "lastUpdate": "2021\/04\/30 11:00",
++    "lastUpdate": "2021\/04\/29 18:45",
+     "main_summary": {
+         "children": [
+             {
+diff --git a/data/metro.json b/data/metro.json
+index 6884bb933b8..13b84ba1404 100755
+--- a/data/metro.json
++++ b/data/metro.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/4\/30 11:00",
++    "date": "2021\/4\/23 11:00",
+     "datasets": [
+         {
+             "period": {
+@@ -686,23 +686,12 @@
+         {
+             "period": {
+                 "begin": "2021-04-19",
+-                "end": "2021-04-23"
++                "end": "2021-04-22"
+             },
+             "data": [
+-                -9.89,
+-                -29.19,
+-                -33.18
+-            ]
+-        },
+-        {
+-            "period": {
+-                "begin": "2021-04-26",
+-                "end": "2021-04-28"
+-            },
+-            "data": [
+-                -11.62,
+-                -32.31,
+-                -38.8
++                -5.26,
++                -25.95,
++                -25.96
+             ]
+         }
+     ],
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index cbb2ff72b65..c82a4738b93 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -4,15 +4,15 @@
+         "専門家3行コメント": [
+             {
+                 "@ja": "第3波を超える急激な感染拡大が危惧される。",
+-                "@en": "It is feared that the virus will spread at a more rapid pace than that of the third wave."
++                "@en": "第3波を超える急激な感染拡大が危惧される。"
+             },
+             {
+                 "@ja": "新規陽性者数の増加に伴い、通常医療が圧迫されている。",
+-                "@en": "The increase in new positive cases is putting pressure on normal health care delivery."
++                "@en": "新規陽性者数の増加に伴い、通常医療が圧迫されている。"
+             },
+             {
+                 "@ja": "新規陽性者数の増加を止め、変異株による重症患者の発生を防ぐ必要がある。",
+-                "@en": "There is the need to stop the increase in new positive cases and prevent severe cases caused by variants."
++                "@en": "新規陽性者数の増加を止め、変異株による重症患者の発生を防ぐ必要がある。"
+             }
+         ],
+         "(1)新規陽性者数": 782.1,

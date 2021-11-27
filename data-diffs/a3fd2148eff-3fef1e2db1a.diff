@@ -1,0 +1,1240 @@
+diff --git a/data/consultation_about_fever.json b/data/consultation_about_fever.json
+index fd44c64b128..04d2c18c4ac 100644
+--- a/data/consultation_about_fever.json
++++ b/data/consultation_about_fever.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "date": "2020-03-01",
+@@ -2175,11 +2175,6 @@
+             "date": "2021-05-09",
+             "count": 90,
+             "weekly_average_count": 89.9
+-        },
+-        {
+-            "date": "2021-05-10",
+-            "count": 51,
+-            "weekly_average_count": 82
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/daily_positive_detail.json b/data/daily_positive_detail.json
+index 4f502634d65..05e5579aa84 100644
+--- a/data/daily_positive_detail.json
++++ b/data/daily_positive_detail.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-20",
+@@ -5247,17 +5247,6 @@
+             "weekly_average_count": 779.1,
+             "weekly_average_untracked_count": 460.9,
+             "weekly_average_untracked_increse_percent": 92.8
+-        },
+-        {
+-            "diagnosed_date": "2021-05-11",
+-            "count": 925,
+-            "missing_count": 569,
+-            "reported_count": 356,
+-            "weekly_gain_ratio": 0.98,
+-            "untracked_percent": 59.6,
+-            "weekly_average_count": 824.3,
+-            "weekly_average_untracked_count": 491.3,
+-            "weekly_average_untracked_increse_percent": 102.4
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/data.json b/data/data.json
+index 5252e681149..9886a93c2c3 100755
+--- a/data/data.json
++++ b/data/data.json
+@@ -1,6 +1,6 @@
+ {
+     "contacts": {
+-        "date": "2021\/05\/11 19:00",
++        "date": "2021\/05\/10 18:45",
+         "data": [
+             {
+                 "日付": "2020-01-29T08:00:00.000Z",
+@@ -4671,16 +4671,6 @@
+                 "date": "2021-05-09",
+                 "w": 0,
+                 "小計": 644
+-            },
+-            {
+-                "日付": "2021-05-10T08:00:00.000Z",
+-                "曜日": "月",
+-                "9-13時": 260,
+-                "13-17時": 207,
+-                "17-21時": 221,
+-                "date": "2021-05-10",
+-                "w": 1,
+-                "小計": 688
+             }
+         ]
+     },
+@@ -7360,7 +7350,7 @@
+         ]
+     },
+     "patients_summary": {
+-        "date": "2021\/05\/11 19:00",
++        "date": "2021\/05\/10 18:45",
+         "data": [
+             {
+                 "日付": "2020-01-24T08:00:00.000Z",
+@@ -9253,15 +9243,11 @@
+             {
+                 "日付": "2021-05-10T08:00:00.000Z",
+                 "小計": 573
+-            },
+-            {
+-                "日付": "2021-05-11T08:00:00.000Z",
+-                "小計": 925
+             }
+         ]
+     },
+     "inspections_summary": {
+-        "date": "2021\/05\/11 19:00",
++        "date": "2021\/05\/10 18:45",
+         "data": {
+             "都内": [
+                 0,
+@@ -9735,8 +9721,7 @@
+                 223,
+                 464,
+                 280,
+-                171,
+-                67
++                171
+             ],
+             "その他": [
+                 0,
+@@ -10210,7 +10195,6 @@
+                 0,
+                 0,
+                 0,
+-                0,
+                 0
+             ],
+             "保険適用分": [
+@@ -10677,16 +10661,15 @@
+                 12037,
+                 2928,
+                 12574,
+-                7358,
+-                3535,
+-                5142,
+-                5351,
+-                4718,
+-                14558,
+-                13224,
+-                6551,
+-                2201,
+-                12052
++                7312,
++                3513,
++                5098,
++                5329,
++                4643,
++                14054,
++                12451,
++                5705,
++                1934
+             ]
+         },
+         "labels": [
+@@ -11161,51 +11144,50 @@
+             "2021-05-06",
+             "2021-05-07",
+             "2021-05-08",
+-            "2021-05-09",
+-            "2021-05-10"
++            "2021-05-09"
+         ]
+     },
+-    "lastUpdate": "2021\/05\/11 19:00",
++    "lastUpdate": "2021\/05\/10 18:45",
+     "main_summary": {
+         "children": [
+             {
+                 "attr": "陽性患者数",
+-                "date": "2021\/5\/11 19:00",
+-                "value": 148092,
++                "date": "2021\/5\/10 18:45",
++                "value": 147167,
+                 "children": [
+                     {
+                         "attr": "入院中",
+-                        "value": 2393,
++                        "value": 2346,
+                         "children": [
+                             {
+                                 "attr": "軽症・中等症",
+-                                "value": 2312
++                                "value": 2268
+                             },
+                             {
+                                 "attr": "重症",
+-                                "value": 81
++                                "value": 78
+                             }
+                         ]
+                     },
+                     {
+                         "attr": "退院",
+-                        "value": 139000
++                        "value": 138070
+                     },
+                     {
+                         "attr": "死亡",
+-                        "value": 1923
++                        "value": 1920
+                     },
+                     {
+                         "attr": "宿泊療養",
+-                        "value": 1160
++                        "value": 1219
+                     },
+                     {
+                         "attr": "自宅療養",
+-                        "value": 2194
++                        "value": 2253
+                     },
+                     {
+                         "attr": "調査中",
+-                        "value": 1422
++                        "value": 1359
+                     }
+                 ]
+             }
+diff --git a/data/deaths.json b/data/deaths.json
+index e4e9cc4a01e..ac1fc8641d1 100644
+--- a/data/deaths.json
++++ b/data/deaths.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "death_date": "2020-02-26",
+@@ -1735,7 +1735,7 @@
+         },
+         {
+             "death_date": "2021-05-04",
+-            "count": 1
++            "count": 0
+         },
+         {
+             "death_date": "2021-05-05",
+@@ -1747,18 +1747,6 @@
+         },
+         {
+             "death_date": "2021-05-07",
+-            "count": 2
+-        },
+-        {
+-            "death_date": "2021-05-08",
+-            "count": 0
+-        },
+-        {
+-            "death_date": "2021-05-09",
+-            "count": 0
+-        },
+-        {
+-            "death_date": "2021-05-10",
+             "count": 1
+         }
+     ]
+diff --git a/data/fever_consultation_center.json b/data/fever_consultation_center.json
+index dca14fe601d..def933eb55a 100644
+--- a/data/fever_consultation_center.json
++++ b/data/fever_consultation_center.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "date": "2020-10-30",
+@@ -1728,15 +1728,6 @@
+                 "total": 2365,
+                 "weekly_average_total": 2285
+             }
+-        },
+-        {
+-            "date": "2021-05-10",
+-            "count": {
+-                "fever_consultation_center": 1792,
+-                "cocoa_dial": 21,
+-                "total": 1813,
+-                "weekly_average_total": 2200
+-            }
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/infection_medicalcareprovision_status.json b/data/infection_medicalcareprovision_status.json
+index 8c6c9344cf2..fc73f82932f 100644
+--- a/data/infection_medicalcareprovision_status.json
++++ b/data/infection_medicalcareprovision_status.json
+@@ -1,15 +1,15 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": {
+-        "新規陽性者": 925,
+-        "検査数": 7107.3,
+-        "検査統計日時": "2021-05-10",
+-        "うち65歳以上の高齢者数": 115,
+-        "死亡者数": 3,
+-        "都外からの持込検体による陽性数": 30,
+-        "入院数": 2393,
++        "新規陽性者": 573,
++        "検査数": 7001.7,
++        "検査統計日時": "2021-05-09",
++        "うち65歳以上の高齢者数": 68,
++        "死亡者数": 2,
++        "都外からの持込検体による陽性数": 44,
++        "入院数": 2346,
+         "確保病床数": 5594,
+-        "うち重症者数": 81,
++        "うち重症者数": 78,
+         "うち重症病床数": 373
+     }
+ }
+\ No newline at end of file
+diff --git a/data/monitoring_items.json b/data/monitoring_items.json
+index a86b0ce85aa..a7013fd8871 100644
+--- a/data/monitoring_items.json
++++ b/data/monitoring_items.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": {
+         "専門家3行コメント": [
+             {
+@@ -15,14 +15,14 @@
+                 "@en": "There is the need to reduce the number of new positive cases and prevent severe cases caused by the N501Y variant."
+             }
+         ],
+-        "(1)新規陽性者数": 824.3,
+-        "(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 ": 82,
+-        "(3)新規陽性者における接触歴等不明者（人数）": 491.3,
+-        "(3)新規陽性者における接触歴等不明者（増加比）": 102.4,
+-        "(4)PCR・抗原検査（陽性率）": 7.5,
+-        "(4)PCR・抗原検査（検査人数）": 7760.9,
+-        "(5)救急医療の東京ルールの適用件数": 61.7,
+-        "(6)入院患者数": 2393,
++        "(1)新規陽性者数": 779.1,
++        "(2)#7119（東京消防庁救急相談センター）における発熱等相談件数 ": 89.9,
++        "(3)新規陽性者における接触歴等不明者（人数）": 460.9,
++        "(3)新規陽性者における接触歴等不明者（増加比）": 92.8,
++        "(4)PCR・抗原検査（陽性率）": 7.9,
++        "(4)PCR・抗原検査（検査人数）": 6835.9,
++        "(5)救急医療の東京ルールの適用件数": 59.7,
++        "(6)入院患者数": 2346,
+         "(6)入院患者確保病床数": 5594,
+         "(7)重症患者数": 78,
+         "(7)重症患者確保病床数": 373,
+diff --git a/data/news.json b/data/news.json
+index f200fe6f2ca..8e331ee14ce 100755
+--- a/data/news.json
++++ b/data/news.json
+@@ -1,22 +1,22 @@
+ {
+     "newsItems": [
+         {
+-            "date": "2021\/05\/11",
++            "date": "2021\/05\/10",
+             "url": "https:\/\/www.bousai.metro.tokyo.lg.jp\/1007617\/index.html",
+             "text": "東京都緊急事態措置等に関する情報"
+         },
+         {
+-            "date": "2021\/05\/11",
++            "date": "2021\/05\/10",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/zyuusyoubyousyou.html",
+             "text": "新型コロナウイルス感染症の重症者・病床について"
+         },
+         {
+-            "date": "2021\/05\/11",
++            "date": "2021\/05\/10",
+             "url": "https:\/\/www.fukushihoken.metro.tokyo.lg.jp\/iryo\/kansen\/ekigakuchousa.html",
+             "text": "都における新型コロナウイルス感染症の積極的疫学調査の対応について"
+         },
+         {
+-            "date": "2021\/05\/11",
++            "date": "2021\/05\/10",
+             "url": "https:\/\/www.seisakukikaku.metro.tokyo.lg.jp\/cross-efforts\/corona\/stay-home.html#stayhome",
+             "text": "コロナをおさえるSTAYHOMEポータルサイトを開設しました"
+         }
+diff --git a/data/patient.json b/data/patient.json
+index 10ec5132f19..1f7947c89e7 100644
+--- a/data/patient.json
++++ b/data/patient.json
+@@ -1,280 +1,280 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "datasets": {
+-        "date": "2021\/5\/10",
++        "date": "2021\/5\/9",
+         "data": [
+             {
+                 "code": 131016,
+                 "area": "特別区",
+                 "label": "千代田区",
+                 "ruby": "ちよだく",
+-                "count": 779
++                "count": 776
+             },
+             {
+                 "code": 131024,
+                 "area": "特別区",
+                 "label": "中央区",
+                 "ruby": "ちゅうおうく",
+-                "count": 2389
++                "count": 2385
+             },
+             {
+                 "code": 131032,
+                 "area": "特別区",
+                 "label": "港区",
+                 "ruby": "みなとく",
+-                "count": 4800
++                "count": 4789
+             },
+             {
+                 "code": 131041,
+                 "area": "特別区",
+                 "label": "新宿区",
+                 "ruby": "しんじゅくく",
+-                "count": 8112
++                "count": 8082
+             },
+             {
+                 "code": 131059,
+                 "area": "特別区",
+                 "label": "文京区",
+                 "ruby": "ぶんきょうく",
+-                "count": 2216
++                "count": 2210
+             },
+             {
+                 "code": 131067,
+                 "area": "特別区",
+                 "label": "台東区",
+                 "ruby": "たいとうく",
+-                "count": 2713
++                "count": 2707
+             },
+             {
+                 "code": 131075,
+                 "area": "特別区",
+                 "label": "墨田区",
+                 "ruby": "すみだく",
+-                "count": 2973
++                "count": 2957
+             },
+             {
+                 "code": 131083,
+                 "area": "特別区",
+                 "label": "江東区",
+                 "ruby": "こうとうく",
+-                "count": 4820
++                "count": 4806
+             },
+             {
+                 "code": 131091,
+                 "area": "特別区",
+                 "label": "品川区",
+                 "ruby": "しながわく",
+-                "count": 4224
++                "count": 4204
+             },
+             {
+                 "code": 131105,
+                 "area": "特別区",
+                 "label": "目黒区",
+                 "ruby": "めぐろく",
+-                "count": 3982
++                "count": 3964
+             },
+             {
+                 "code": 131113,
+                 "area": "特別区",
+                 "label": "大田区",
+                 "ruby": "おおたく",
+-                "count": 7310
++                "count": 7290
+             },
+             {
+                 "code": 131121,
+                 "area": "特別区",
+                 "label": "世田谷区",
+                 "ruby": "せたがやく",
+-                "count": 10618
++                "count": 10587
+             },
+             {
+                 "code": 131130,
+                 "area": "特別区",
+                 "label": "渋谷区",
+                 "ruby": "しぶやく",
+-                "count": 4196
++                "count": 4186
+             },
+             {
+                 "code": 131148,
+                 "area": "特別区",
+                 "label": "中野区",
+                 "ruby": "なかのく",
+-                "count": 4775
++                "count": 4749
+             },
+             {
+                 "code": 131156,
+                 "area": "特別区",
+                 "label": "杉並区",
+                 "ruby": "すぎなみく",
+-                "count": 5798
++                "count": 5786
+             },
+             {
+                 "code": 131164,
+                 "area": "特別区",
+                 "label": "豊島区",
+                 "ruby": "としまく",
+-                "count": 3853
++                "count": 3835
+             },
+             {
+                 "code": 131172,
+                 "area": "特別区",
+                 "label": "北区",
+                 "ruby": "きたく",
+-                "count": 3229
++                "count": 3223
+             },
+             {
+                 "code": 131181,
+                 "area": "特別区",
+                 "label": "荒川区",
+                 "ruby": "あらかわく",
+-                "count": 2334
++                "count": 2330
+             },
+             {
+                 "code": 131199,
+                 "area": "特別区",
+                 "label": "板橋区",
+                 "ruby": "いたばしく",
+-                "count": 5479
++                "count": 5456
+             },
+             {
+                 "code": 131202,
+                 "area": "特別区",
+                 "label": "練馬区",
+                 "ruby": "ねりまく",
+-                "count": 6556
++                "count": 6536
+             },
+             {
+                 "code": 131211,
+                 "area": "特別区",
+                 "label": "足立区",
+                 "ruby": "あだちく",
+-                "count": 6918
++                "count": 6900
+             },
+             {
+                 "code": 131229,
+                 "area": "特別区",
+                 "label": "葛飾区",
+                 "ruby": "かつしかく",
+-                "count": 5140
++                "count": 5121
+             },
+             {
+                 "code": 131237,
+                 "area": "特別区",
+                 "label": "江戸川区",
+                 "ruby": "えどがわく",
+-                "count": 6222
++                "count": 6200
+             },
+             {
+                 "code": 132012,
+                 "area": "多摩地域",
+                 "label": "八王子市",
+                 "ruby": "はちおうじし",
+-                "count": 3576
++                "count": 3553
+             },
+             {
+                 "code": 132021,
+                 "area": "多摩地域",
+                 "label": "立川市",
+                 "ruby": "たちかわし",
+-                "count": 1185
++                "count": 1174
+             },
+             {
+                 "code": 132039,
+                 "area": "多摩地域",
+                 "label": "武蔵野市",
+                 "ruby": "むさしのし",
+-                "count": 1164
++                "count": 1152
+             },
+             {
+                 "code": 132047,
+                 "area": "多摩地域",
+                 "label": "三鷹市",
+                 "ruby": "みたかし",
+-                "count": 1388
++                "count": 1384
+             },
+             {
+                 "code": 132055,
+                 "area": "多摩地域",
+                 "label": "青梅市",
+                 "ruby": "おうめし",
+-                "count": 748
++                "count": 747
+             },
+             {
+                 "code": 132063,
+                 "area": "多摩地域",
+                 "label": "府中市",
+                 "ruby": "ふちゅうし",
+-                "count": 1604
++                "count": 1600
+             },
+             {
+                 "code": 132071,
+                 "area": "多摩地域",
+                 "label": "昭島市",
+                 "ruby": "あきしまし",
+-                "count": 733
++                "count": 731
+             },
+             {
+                 "code": 132080,
+                 "area": "多摩地域",
+                 "label": "調布市",
+                 "ruby": "ちょうふし",
+-                "count": 1760
++                "count": 1755
+             },
+             {
+                 "code": 132098,
+                 "area": "多摩地域",
+                 "label": "町田市",
+                 "ruby": "まちだし",
+-                "count": 2392
++                "count": 2388
+             },
+             {
+                 "code": 132101,
+                 "area": "多摩地域",
+                 "label": "小金井市",
+                 "ruby": "こがねいし",
+-                "count": 836
++                "count": 833
+             },
+             {
+                 "code": 132110,
+                 "area": "多摩地域",
+                 "label": "小平市",
+                 "ruby": "こだいらし",
+-                "count": 991
++                "count": 986
+             },
+             {
+                 "code": 132128,
+                 "area": "多摩地域",
+                 "label": "日野市",
+                 "ruby": "ひのし",
+-                "count": 1059
++                "count": 1058
+             },
+             {
+                 "code": 132136,
+                 "area": "多摩地域",
+                 "label": "東村山市",
+                 "ruby": "ひがしむらやまし",
+-                "count": 731
++                "count": 728
+             },
+             {
+                 "code": 132144,
+                 "area": "多摩地域",
+                 "label": "国分寺市",
+                 "ruby": "こくぶんじし",
+-                "count": 711
++                "count": 707
+             },
+             {
+                 "code": 132152,
+                 "area": "多摩地域",
+                 "label": "国立市",
+                 "ruby": "くにたちし",
+-                "count": 388
++                "count": 379
+             },
+             {
+                 "code": 132187,
+                 "area": "多摩地域",
+                 "label": "福生市",
+                 "ruby": "ふっさし",
+-                "count": 431
++                "count": 430
+             },
+             {
+                 "code": 132195,
+@@ -295,56 +295,56 @@
+                 "area": "多摩地域",
+                 "label": "清瀬市",
+                 "ruby": "きよせし",
+-                "count": 347
++                "count": 343
+             },
+             {
+                 "code": 132225,
+                 "area": "多摩地域",
+                 "label": "東久留米市",
+                 "ruby": "ひがしくるめし",
+-                "count": 598
++                "count": 593
+             },
+             {
+                 "code": 132233,
+                 "area": "多摩地域",
+                 "label": "武蔵村山市",
+                 "ruby": "むさしむらやまし",
+-                "count": 334
++                "count": 333
+             },
+             {
+                 "code": 132241,
+                 "area": "多摩地域",
+                 "label": "多摩市",
+                 "ruby": "たまし",
+-                "count": 816
++                "count": 803
+             },
+             {
+                 "code": 132250,
+                 "area": "多摩地域",
+                 "label": "稲城市",
+                 "ruby": "いなぎし",
+-                "count": 478
++                "count": 473
+             },
+             {
+                 "code": 132276,
+                 "area": "多摩地域",
+                 "label": "羽村市",
+                 "ruby": "はむらし",
+-                "count": 323
++                "count": 319
+             },
+             {
+                 "code": 132284,
+                 "area": "多摩地域",
+                 "label": "あきる野市",
+                 "ruby": "あきるのし",
+-                "count": 476
++                "count": 477
+             },
+             {
+                 "code": 132292,
+                 "area": "多摩地域",
+                 "label": "西東京市",
+                 "ruby": "にしとうきょうし",
+-                "count": 1429
++                "count": 1425
+             },
+             {
+                 "code": 133035,
+@@ -358,7 +358,7 @@
+                 "area": "多摩地域",
+                 "label": "日の出町",
+                 "ruby": "ひのでまち",
+-                "count": 88
++                "count": 87
+             },
+             {
+                 "code": 133078,
+@@ -442,21 +442,21 @@
+                 "area": null,
+                 "label": "都外",
+                 "ruby": null,
+-                "count": 11867
++                "count": 11778
+             },
+             {
+                 "code": null,
+                 "area": null,
+                 "label": "調査中",
+                 "ruby": null,
+-                "count": 77
++                "count": 78
+             },
+             {
+                 "code": null,
+                 "area": null,
+                 "label": "小計",
+                 "ruby": null,
+-                "count": 147167
++                "count": 146594
+             }
+         ]
+     }
+diff --git a/data/positive_by_developed.json b/data/positive_by_developed.json
+index 5da21b22578..eb69cdda462 100644
+--- a/data/positive_by_developed.json
++++ b/data/positive_by_developed.json
+@@ -1,6 +1,6 @@
+ {
+-    "date": "2021\/5\/11 19:00",
+-    "unknown_count": 52437,
++    "date": "2021\/5\/10 18:45",
++    "unknown_count": 52169,
+     "data": [
+         {
+             "developed_date": "2020-01-14",
+@@ -1832,7 +1832,7 @@
+         },
+         {
+             "developed_date": "2021-04-15",
+-            "count": 447
++            "count": 446
+         },
+         {
+             "developed_date": "2021-04-16",
+@@ -1860,11 +1860,11 @@
+         },
+         {
+             "developed_date": "2021-04-22",
+-            "count": 530
++            "count": 528
+         },
+         {
+             "developed_date": "2021-04-23",
+-            "count": 508
++            "count": 507
+         },
+         {
+             "developed_date": "2021-04-24",
+@@ -1872,71 +1872,63 @@
+         },
+         {
+             "developed_date": "2021-04-25",
+-            "count": 522
++            "count": 520
+         },
+         {
+             "developed_date": "2021-04-26",
+-            "count": 647
++            "count": 645
+         },
+         {
+             "developed_date": "2021-04-27",
+-            "count": 642
++            "count": 640
+         },
+         {
+             "developed_date": "2021-04-28",
+-            "count": 630
++            "count": 617
+         },
+         {
+             "developed_date": "2021-04-29",
+-            "count": 537
++            "count": 531
+         },
+         {
+             "developed_date": "2021-04-30",
+-            "count": 558
++            "count": 546
+         },
+         {
+             "developed_date": "2021-05-01",
+-            "count": 562
++            "count": 535
+         },
+         {
+             "developed_date": "2021-05-02",
+-            "count": 508
++            "count": 477
+         },
+         {
+             "developed_date": "2021-05-03",
+-            "count": 528
++            "count": 485
+         },
+         {
+             "developed_date": "2021-05-04",
+-            "count": 471
++            "count": 437
+         },
+         {
+             "developed_date": "2021-05-05",
+-            "count": 491
++            "count": 443
+         },
+         {
+             "developed_date": "2021-05-06",
+-            "count": 440
++            "count": 358
+         },
+         {
+             "developed_date": "2021-05-07",
+-            "count": 391
++            "count": 249
+         },
+         {
+             "developed_date": "2021-05-08",
+-            "count": 192
++            "count": 92
+         },
+         {
+             "developed_date": "2021-05-09",
+-            "count": 84
+-        },
+-        {
+-            "developed_date": "2021-05-10",
+-            "count": 42
+-        },
+-        {
+-            "developed_date": "2021-05-11",
+-            "count": 2
++            "count": 19
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/positive_by_diagnosed.json b/data/positive_by_diagnosed.json
+index 225cbac0062..1cc955adb8e 100644
+--- a/data/positive_by_diagnosed.json
++++ b/data/positive_by_diagnosed.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-01-23",
+@@ -1847,7 +1847,7 @@
+         },
+         {
+             "diagnosed_date": "2021-04-28",
+-            "count": 1077
++            "count": 1076
+         },
+         {
+             "diagnosed_date": "2021-04-29",
+@@ -1855,7 +1855,7 @@
+         },
+         {
+             "diagnosed_date": "2021-04-30",
+-            "count": 1031
++            "count": 1030
+         },
+         {
+             "diagnosed_date": "2021-05-01",
+@@ -1867,39 +1867,35 @@
+         },
+         {
+             "diagnosed_date": "2021-05-03",
+-            "count": 596
++            "count": 593
+         },
+         {
+             "diagnosed_date": "2021-05-04",
+-            "count": 646
++            "count": 637
+         },
+         {
+             "diagnosed_date": "2021-05-05",
+-            "count": 576
++            "count": 573
+         },
+         {
+             "diagnosed_date": "2021-05-06",
+-            "count": 917
++            "count": 893
+         },
+         {
+             "diagnosed_date": "2021-05-07",
+-            "count": 1145
++            "count": 1129
+         },
+         {
+             "diagnosed_date": "2021-05-08",
+-            "count": 975
++            "count": 941
+         },
+         {
+             "diagnosed_date": "2021-05-09",
+-            "count": 508
++            "count": 349
+         },
+         {
+             "diagnosed_date": "2021-05-10",
+-            "count": 683
+-        },
+-        {
+-            "diagnosed_date": "2021-05-11",
+-            "count": 7
++            "count": 15
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/positive_rate.json b/data/positive_rate.json
+index 82dbed69e89..331d99edb62 100644
+--- a/data/positive_rate.json
++++ b/data/positive_rate.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "diagnosed_date": "2020-02-15",
+@@ -4854,113 +4854,102 @@
+         },
+         {
+             "diagnosed_date": "2021-05-01",
+-            "positive_count": 702,
+-            "negative_count": 8034,
++            "positive_count": 700,
++            "negative_count": 8006,
+             "positive_rate": 7.5,
+-            "weekly_average_diagnosed_count": 8596,
+-            "pcr_positive_count": 602,
+-            "pcr_negative_count": 6795,
+-            "antigen_positive_count": 100,
+-            "antigen_negative_count": 1239
++            "weekly_average_diagnosed_count": 8591.7,
++            "pcr_positive_count": 601,
++            "pcr_negative_count": 6769,
++            "antigen_positive_count": 99,
++            "antigen_negative_count": 1237
+         },
+         {
+             "diagnosed_date": "2021-05-02",
+-            "positive_count": 457,
+-            "negative_count": 4523,
++            "positive_count": 448,
++            "negative_count": 4510,
+             "positive_rate": 7.6,
+-            "weekly_average_diagnosed_count": 8860.7,
+-            "pcr_positive_count": 373,
+-            "pcr_negative_count": 3706,
++            "weekly_average_diagnosed_count": 8853.3,
++            "pcr_positive_count": 364,
++            "pcr_negative_count": 3693,
+             "antigen_positive_count": 84,
+             "antigen_negative_count": 817
+         },
+         {
+             "diagnosed_date": "2021-05-03",
+-            "positive_count": 445,
+-            "negative_count": 4347,
++            "positive_count": 440,
++            "negative_count": 4288,
+             "positive_rate": 7.9,
+-            "weekly_average_diagnosed_count": 8165.9,
+-            "pcr_positive_count": 345,
+-            "pcr_negative_count": 3307,
++            "weekly_average_diagnosed_count": 8149.3,
++            "pcr_positive_count": 340,
++            "pcr_negative_count": 3253,
+             "antigen_positive_count": 100,
+-            "antigen_negative_count": 1040
++            "antigen_negative_count": 1035
+         },
+         {
+             "diagnosed_date": "2021-05-04",
+-            "positive_count": 528,
+-            "negative_count": 4708,
++            "positive_count": 527,
++            "negative_count": 4693,
+             "positive_rate": 8.3,
+-            "weekly_average_diagnosed_count": 7285.1,
++            "weekly_average_diagnosed_count": 7266.3,
+             "pcr_positive_count": 429,
+-            "pcr_negative_count": 3846,
+-            "antigen_positive_count": 99,
+-            "antigen_negative_count": 862
++            "pcr_negative_count": 3839,
++            "antigen_positive_count": 98,
++            "antigen_negative_count": 854
+         },
+         {
+             "diagnosed_date": "2021-05-05",
+-            "positive_count": 399,
+-            "negative_count": 4474,
++            "positive_count": 394,
++            "negative_count": 4365,
+             "positive_rate": 8.7,
+-            "weekly_average_diagnosed_count": 6318.3,
+-            "pcr_positive_count": 325,
+-            "pcr_negative_count": 3460,
++            "weekly_average_diagnosed_count": 6283.1,
++            "pcr_positive_count": 320,
++            "pcr_negative_count": 3366,
+             "antigen_positive_count": 74,
+-            "antigen_negative_count": 1014
++            "antigen_negative_count": 999
+         },
+         {
+             "diagnosed_date": "2021-05-06",
+-            "positive_count": 648,
+-            "negative_count": 9284,
++            "positive_count": 632,
++            "negative_count": 9025,
+             "positive_rate": 8.3,
+-            "weekly_average_diagnosed_count": 6906.3,
+-            "pcr_positive_count": 507,
+-            "pcr_negative_count": 6843,
+-            "antigen_positive_count": 141,
+-            "antigen_negative_count": 2441
++            "weekly_average_diagnosed_count": 6831.9,
++            "pcr_positive_count": 494,
++            "pcr_negative_count": 6657,
++            "antigen_positive_count": 138,
++            "antigen_negative_count": 2368
+         },
+         {
+             "diagnosed_date": "2021-05-07",
+-            "positive_count": 933,
+-            "negative_count": 12786,
++            "positive_count": 892,
++            "negative_count": 12034,
+             "positive_rate": 7.9,
+-            "weekly_average_diagnosed_count": 7466.9,
+-            "pcr_positive_count": 784,
+-            "pcr_negative_count": 10555,
+-            "antigen_positive_count": 149,
+-            "antigen_negative_count": 2231
++            "weekly_average_diagnosed_count": 7279.1,
++            "pcr_positive_count": 757,
++            "pcr_negative_count": 10009,
++            "antigen_positive_count": 135,
++            "antigen_negative_count": 2025
+         },
+         {
+             "diagnosed_date": "2021-05-08",
+-            "positive_count": 668,
+-            "negative_count": 7799,
+-            "positive_rate": 7.8,
+-            "weekly_average_diagnosed_count": 7428.4,
+-            "pcr_positive_count": 590,
+-            "pcr_negative_count": 6619,
+-            "antigen_positive_count": 78,
+-            "antigen_negative_count": 1180
++            "positive_count": 632,
++            "negative_count": 7019,
++            "positive_rate": 7.9,
++            "weekly_average_diagnosed_count": 7128.4,
++            "pcr_positive_count": 561,
++            "pcr_negative_count": 5993,
++            "antigen_positive_count": 71,
++            "antigen_negative_count": 1026
+         },
+         {
+             "diagnosed_date": "2021-05-09",
+-            "positive_count": 287,
+-            "negative_count": 3078,
+-            "positive_rate": 7.8,
+-            "weekly_average_diagnosed_count": 7197.7,
+-            "pcr_positive_count": 236,
+-            "pcr_negative_count": 2418,
+-            "antigen_positive_count": 51,
+-            "antigen_negative_count": 660
+-        },
+-        {
+-            "diagnosed_date": "2021-05-10",
+-            "positive_count": 603,
+-            "negative_count": 8131,
+-            "positive_rate": 7.5,
+-            "weekly_average_diagnosed_count": 7760.9,
+-            "pcr_positive_count": 490,
+-            "pcr_negative_count": 6159,
+-            "antigen_positive_count": 113,
+-            "antigen_negative_count": 1972
++            "positive_count": 263,
++            "negative_count": 2647,
++            "positive_rate": 7.9,
++            "weekly_average_diagnosed_count": 6835.9,
++            "pcr_positive_count": 216,
++            "pcr_negative_count": 2102,
++            "antigen_positive_count": 47,
++            "antigen_negative_count": 545
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/positive_status.json b/data/positive_status.json
+index 95843b11f2b..b8db517d7ef 100644
+--- a/data/positive_status.json
++++ b/data/positive_status.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "date": "2020-02-28",
+@@ -2190,11 +2190,6 @@
+             "date": "2021-05-10",
+             "hospitalized": 2346,
+             "severe_case": 78
+-        },
+-        {
+-            "date": "2021-05-11",
+-            "hospitalized": 2393,
+-            "severe_case": 81
+         }
+     ]
+ }
+\ No newline at end of file
+diff --git a/data/tokyo_rule.json b/data/tokyo_rule.json
+index 17b8496c12e..0468247b610 100644
+--- a/data/tokyo_rule.json
++++ b/data/tokyo_rule.json
+@@ -1,5 +1,5 @@
+ {
+-    "date": "2021\/5\/11 19:00",
++    "date": "2021\/5\/10 18:45",
+     "data": [
+         {
+             "date": "2020-03-01",
+@@ -2175,11 +2175,6 @@
+             "date": "2021-05-09",
+             "count": 71,
+             "weekly_average_count": 59.7
+-        },
+-        {
+-            "date": "2021-05-10",
+-            "count": 74,
+-            "weekly_average_count": 61.7
+         }
+     ]
+ }
+\ No newline at end of file
