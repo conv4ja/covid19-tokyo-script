@@ -53,7 +53,7 @@ https://github.com/tokyo-metropolitan-gov/covid19 のリポジトリを複製し
 ./conv.sh extract
 ```
 
-### 抽出済み日時データjsonの集計・CSVへの変換
+### 抽出済み日次データjsonの集計・CSVへの変換
 
 `conv.sh analyze` を実行することで、`out`配下に出力された日次データを解析し、区市町村・日付ごとの検査陽性者数をCSVとして出力します。
 既に本家リポジトリをクローン済みであり、かつシェルによる集計ファイルの抽出`extract`が終了している場合には、こちらがおすすめです。
@@ -67,7 +67,7 @@ https://github.com/tokyo-metropolitan-gov/covid19 のリポジトリを複製し
 
 # Testing
 
-- [*] CI通過(Ubuntu)を確認。
+- CI通過(Ubuntu)を確認。
 - [ ] データ形式テストを記述していません。<-TODO
 - [ ] zsh および macOSでの動作検証
 - [ ] WSL
