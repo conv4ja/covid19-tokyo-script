@@ -8,8 +8,6 @@ on:
 
 jobs:
 
-  # Push image to DockerHub.
-  # See also https://docs.docker.com/docker-hub/builds/
   test-convert:
 
     runs-on: ubuntu-latest
@@ -26,7 +24,6 @@ jobs:
         run: |
           sh -exc " \
           PATH=$PWD:$PATH;\
-          conv.sh fetch; \
           conv.sh all; \
           "
 

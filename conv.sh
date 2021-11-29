@@ -24,19 +24,27 @@ usagi(){ #usage
 
 clean(){
 	: ${data_root:?data_root not specified}
-	[ -d "$repo_dir" ] || return 1
-	[ -d $repo_dir/$data_root ] && rm -rv $repo_dir/$data_root || :
-	cd $repo_dir
+	[ -d $data_root ] && rm -rv $data_root || :
 	git reset --hard origin/HEAD
 }
 
+fetch(){
+	git clone ${repo_url:?repo_url must be set} ${repo_dir:?repo_dir must be set}
+}
+
 prepare(){
+	[ -z "$NOP" ] || return 
+	cd $repo_dir
 	git status > /dev/null || {
 		usagi
-		throw Gitリポジトリの中で実行してください
+		throw "Gitリポジトリ $repo_dir が見つかりません"
 	}
-	clean
-	mkdir -vp $data_root $diff_dir $dest_dir
+	git pull
+	for i in $data_root $diff_dir $dest_dir
+	do
+		[ -d "$i" ] || mkdir -vp $i
+	done
+
 }
 
 
@@ -100,7 +108,7 @@ patch_diffs_foreach(){
 	done
 }
 
-modify(){
+pickup_data(){
 	for m in $dest_dir/*
 	do
 		jq .datasets.data < $m/patient.json > $m/patient-mod.json 2> /dev/null
@@ -108,30 +116,38 @@ modify(){
 	wait
 }
 
+extract(){
+	set_initial_ref
+	get_diffs_foreach $(get_refs)
+	patch_diffs_foreach $(get_refs)
+}
+
 case $1 in
-	all)
-		[ -d "$repo_dir" ] || throw "\"conv.sh fetch\" first"
-		cd $repo_dir
+	fetch)
+		fetch
+		;;
+	analyze)
 		prepare
-		set_initial_ref
-		get_diffs_foreach $(get_refs)
-		patch_diffs_foreach $(get_refs)
-		modify
+		conv.py
+		;;
+	extract)
+		prepare
+		extract
+		pickup_data
+		;;
+	all)
+		fetch
+		[ -d "$repo_dir" ] || throw "\"conv.sh fetch\" first"
+		prepare
+		extract
+		pickup_data
 		echo PWD=$(pwd)
 		ls
 		cd ${data_root:?data_root must be set}
 		${0%/*}/conv.py # -> 外部スクリプト(pandas) -> CSV吐 (地域別患者数のみ)
 		;;
-	analyze)
-		conv.py
-		;;
-	fetch)
-		git clone ${repo_url:?repo_url must be set} ${repo_dir:?repo_dir must be set}
-		;;
-	mod|modify)
-		modify
-		;;
 	clean)
+		prepare
 		clean
 		;;
 	*)
