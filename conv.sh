@@ -3,12 +3,15 @@
 # Author: Nomura Suzume <suzume315@g00.g1e.org>
 # usagi: cd path/to/covid19/repo; conv.sh [all|clean]
 # 注記1: 2020年5月以前のデータは正常に取得できません。
-# 注記2: [バグ] 2020/6/1, 9/10 および 9/11 のデータは異常値が出力されます。
+# 注記2: [バグ] 2020/6/1 および 9/10, 9/11, 10/29 のデータは異常値が出力されます。
+# 注記3: 2021/11/29現在、データの整合性・正確性は検証していません。
 
 PATH="${0%/*}:$PATH"
 data_root=hack
 diff_dir=$data_root/data-diffs
 dest_dir=$data_root/out
+repo_url="https://github.com/tokyo-metropolitan-gov/covid19"
+repo_dir=tokyocovid19-repo
 
 throw(){
 	echo $* >&2
@@ -21,7 +24,10 @@ usagi(){ #usage
 
 clean(){
 	: ${data_root:?data_root not specified}
-	[ -d $data_root ] && rm -rv $data_root || :
+	[ -d "$repo_dir" ] || return 1
+	[ -d $repo_dir/$data_root ] && rm -rv $repo_dir/$data_root || :
+	cd $repo_dir
+	git reset --hard origin/HEAD
 }
 
 prepare(){
@@ -104,6 +110,8 @@ modify(){
 
 case $1 in
 	all)
+		[ -d "$repo_dir" ] || throw "\"conv.sh fetch\" first"
+		cd $repo_dir
 		prepare
 		set_initial_ref
 		get_diffs_foreach $(get_refs)
@@ -111,10 +119,14 @@ case $1 in
 		modify
 		echo PWD=$(pwd)
 		ls
-		conv.py # -> 外部スクリプト(pandas) -> CSV吐 (地域別患者数のみ)
+		cd ${data_root:?data_root must be set}
+		${0%/*}/conv.py # -> 外部スクリプト(pandas) -> CSV吐 (地域別患者数のみ)
 		;;
-	analyze|昆布|こ|コ|コケ)
+	analyze)
 		conv.py
+		;;
+	fetch)
+		git clone ${repo_url:?repo_url must be set} ${repo_dir:?repo_dir must be set}
 		;;
 	mod|modify)
 		modify
