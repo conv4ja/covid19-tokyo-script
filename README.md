@@ -42,8 +42,9 @@ https://github.com/tokyo-metropolitan-gov/covid19 のリポジトリを複製し
 
 ### 本家Gitリポジトリから区市町村別陽性者統計のjson取得
 
-コミットログからデータ更新コミットのみを判別し、当該コミット間における公開データを抽出、感染者統計ファイルの差分(diff)を抽出します。
+コミットログからデータ更新コミットのみを判別し、当該コミット間における公開データを隔離、感染者統計ファイルの差分(diff)を抽出します。
 上記diffから再帰的に各日の区市町村別陽性者数を計算し、結果をJSONファイルとして生成します。
+
 数分かかります。
 
 ```
@@ -66,10 +67,10 @@ https://github.com/tokyo-metropolitan-gov/covid19 のリポジトリを複製し
 
 # Testing
 
-未テスト。CIが通ることを確認できていません。
+未テスト。CIを通貨することを確認できていません。
 
 # Credit
 
-`data-diff` および `out` 配下の生成済みデータは[東京都 新型コロナウイルス感染症対策サイトの公式リポジトリ](https://github.com/tokyo-metropolitan-gov/covid19)から取得されました。これら上流のデータに関しては[MITライセンス](https://github.com/tokyo-metropolitan-gov/covid19/blob/development/LICENSE.txt)で提供されます。
+本リポジトリに含まれる生成済みデータ`data-raw.csv`は[東京都 新型コロナウイルス感染症対策サイトの公式リポジトリ](https://github.com/tokyo-metropolitan-gov/covid19)から計算されました。
 
-上記ディレクトリを除く本プロジェクトの成果物は [CC-BY-SA 4.0](LICENSE.md)で提供されます。
+本プロジェクトの成果物は [CC-BY-SA 4.0](LICENSE.md)で提供されます。

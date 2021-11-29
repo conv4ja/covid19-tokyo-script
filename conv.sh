@@ -6,12 +6,12 @@
 # 注記2: [バグ] 2020/6/1 および 9/10, 9/11, 10/29 のデータは異常値が出力されます。
 # 注記3: 2021/11/29現在、データの整合性・正確性は検証していません。
 
-PATH="${0%/*}:$PATH"
+PATH="$(pwd):$PATH"
 data_root=hack
 diff_dir=$data_root/data-diffs
 dest_dir=$data_root/out
 repo_url="https://github.com/tokyo-metropolitan-gov/covid19"
-repo_dir=tokyocovid19-repo
+repo_dir=$(pwd)/tokyocovid19-repo
 
 throw(){
 	echo $* >&2
@@ -44,6 +44,7 @@ prepare(){
 	do
 		[ -d "$i" ] || mkdir -vp $i
 	done
+	data_root="$repo_dir/$data_root"
 
 }
 
@@ -128,6 +129,7 @@ case $1 in
 		;;
 	analyze)
 		prepare
+		cd ${data_root:?data_root must be set}
 		conv.py
 		;;
 	extract)
@@ -144,7 +146,7 @@ case $1 in
 		echo PWD=$(pwd)
 		ls
 		cd ${data_root:?data_root must be set}
-		${0%/*}/conv.py # -> 外部スクリプト(pandas) -> CSV吐 (地域別患者数のみ)
+		conv.py # -> 外部スクリプト(pandas) -> CSV吐 (地域別患者数のみ)
 		;;
 	clean)
 		prepare
