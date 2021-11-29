@@ -16,11 +16,12 @@
 
 ハードウェアとしてRAM 4GiB+, CPU としては Core i series 以上を推奨いたします。
 
+* 可搬性はdash/bash においてのみ検証済みです(debian11/ubuntu)。macOSで検証頂ける方を募集しています。
+
 # Usage
 
 ### 一括処理 
 
-* 可搬性はdash/bash においてのみ検証済みです(debian11/ubuntu)。macOSで検証頂ける方を募集しています。
 
 コマンドラインから次のスクリプトを実行してください。
 取得データ量が膨大(8GB以上)となります。事前にファイルシステム容量をご確認の上、必要に応じてNFSを利用するなど、事前の対策をおすすめします。
@@ -64,13 +65,16 @@ https://github.com/tokyo-metropolitan-gov/covid19 のリポジトリを複製し
 ./conv.sh analyze
 ```
 
-
 # Testing
 
-未テスト。CIを通貨することを確認できていません。
+- [*] CI通過(Ubuntu)を確認。
+- [ ] データ形式テストを記述していません。<-TODO
+- [ ] zsh および macOSでの動作検証
+- [ ] WSL
 
 # Credit
 
 本リポジトリに含まれる生成済みデータ`data-raw.csv`は[東京都 新型コロナウイルス感染症対策サイトの公式リポジトリ](https://github.com/tokyo-metropolitan-gov/covid19)から計算されました。
+上流リポジトリのライセンスは[こちら](DATA_LICENSE)を参照ください。
 
 本プロジェクトの成果物は [CC-BY-SA 4.0](LICENSE.md)で提供されます。
