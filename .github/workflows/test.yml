@@ -25,9 +25,8 @@ jobs:
       - name: fetch code, conv it
         run: |
           sh -exc " \
-          git clone https://github.com/tokyo-metropolitan-gov/covid19 covid; \
           PATH=$PWD:$PATH;\
-          cd covid; \
+          conv.sh fetch; \
           conv.sh all; \
           "
 
